@@ -1,0 +1,56 @@
+  PID CMD
+  710 /usr/lib/systemd/systemd --user
+  712 (sd-pam)
+  719 -bash
+  724 /bin/sh /usr/bin/startx
+  746 xinit /home/michael/.xinitrc -- /etc/X11/xinit/xserverrc :0 vt1 -auth /tmp/serverauth.djBstBhwfv
+  753 /usr/bin/python3.5 /home/michael/bin/App_Hub -name login
+  759 compiz ccp --replace
+  760 python3 /home/michael/Documents/Python/Random_Wallpaper.py
+  761 cairo-dock -o
+  762 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation
+  763 /usr/lib/at-spi2-core/at-spi-bus-launcher
+  768 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+  770 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+  775 /usr/lib/gvfs/gvfsd
+  780 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+  800 emerald --replace
+  839 /usr/bin/pulseaudio --daemonize=no
+  925 /usr/lib/GConf/gconfd-2
+ 1447 nemo
+ 1452 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ 1464 /usr/lib/gvfs/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+ 1471 /usr/lib/gvfs/gvfsd-metadata
+ 1475 /usr/lib/dconf/dconf-service
+18791 xterm
+18793 bash
+19706 inotifywait -d -o /home/michael/test/output1 /proc
+19768 inotifywait -d -o /home/michael/test/output /proc/loadavg
+20008 inotifywait -d -o /home/michael/test/output /proc
+20913 /usr/lib/gvfs/gvfsd-network --spawner :1.7 /org/gtk/gvfs/exec_spaw/1
+20920 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.7 /org/gtk/gvfs/exec_spaw/2
+20993 pluma /home/michael/test/trial2
+21314 /opt/google/chrome/chrome
+21321 cat
+21322 cat
+21324 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote
+21325 /opt/google/chrome/chrome --type=zygote
+21327 /opt/google/chrome/chrome-sandbox /opt/google/chrome/nacl_helper
+21328 /opt/google/chrome/nacl_helper
+21330 /opt/google/chrome/chrome --type=zygote
+21407 /opt/google/chrome/chrome --type=gpu-process --channel=21314.0.390255733 --window-depth=24 --supports-dual-gpus=false --gpu-driver-bug-workarounds=4,25,33,36,48,53,64,66 --disable-accelerated-video-decode --gpu-vendor-id=0x10de --gpu-device-id=0x1380 --gpu-driver-vendor=NVIDIA --gpu-driver-version=367.35 --v8-natives-passed-by-fd --v8-snapshot-passed-by-fd
+21416 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*BrotliEncoding/Enabled/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OmniboxBundledExperimen
+21422 /opt/google/chrome/chrome --type=gpu-broker
+21433 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*BrotliEncoding/Enabled/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/*OmniboxBundledExperim
+21443 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*BrotliEncoding/Enabled/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/*OmniboxBundledExperim
+21444 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*BrotliEncoding/Enabled/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/*OmniboxBundledExperim
+21448 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*BrotliEncoding/Enabled/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/*OmniboxBundledExperim
+21555 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*BrotliEncoding/Enabled/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/*OmniboxBundledExperim
+21584 xterm
+21586 bash
+21680 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*BrotliEncoding/Enabled/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/*OmniboxBundledExperim
+21899 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*BrotliEncoding/Enabled/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/*OmniboxBundledExperim
+22065 firefox
+22189 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*BrotliEncoding/Enabled/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/*OmniboxBundledExperim
+22289 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*BrotliEncoding/Enabled/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/*OmniboxBundledExperim
+22328 ps -u michael -o pid,cmd
