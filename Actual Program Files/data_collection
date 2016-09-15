@@ -5,10 +5,10 @@ UPDATE_TIME=10
 function compare_output {
     # Reads the contents of the previous output into the program.
     
-    mapfile -t prev_output < ~/test/previous_output
+    mapfile -t prev_output < ~/.ian/previous_output
     unset prev_output[-1] # Removes the 'ps -u $USER -o pid,cmd' process.
     
-    mapfile -t new_output < ~/test/newest_output
+    mapfile -t new_output < ~/.ian/newest_output
     unset new_output[-1] # Removes the 'ps -u $USER -o pid,cmd' process.
 
     offset=0
@@ -51,14 +51,14 @@ function compare_output {
     for item in "${prev_output[@]:$((element + offset + 1))}"; do
         echo Old process stopped! $item
     done
-}
+}        
 
-ps -u $USER -o pid,cmd > ~/test/previous_output
+ps -u $USER -o pid,cmd > ~/.ian/previous_output
 
 while true; do
-    ps -u $USER -o pid,cmd > ~/test/newest_output
+    ps -u $USER -o pid,cmd > ~/.ian/newest_output
     compare_output
     echo ~~~
     sleep $UPDATE_TIME
-    cat ~/test/newest_output > ~/test/previous_output
+    cat ~/.ian/newest_output > ~/.ian/previous_output
 done
