@@ -21,7 +21,7 @@ function compare_output {
             
             if [ "$prev_proc" == "$new_proc" ]; then
                 break
-            else
+            else                
                 # Gets the pid (only) of the previous process being compared at the time.
                 declare -i prev_pid=${prev_proc[0]}
                 # If prev_output < new_output, empty array elements default to a zero value.
@@ -37,11 +37,11 @@ function compare_output {
                 # Determines if a new process was started or if an old process was stopped.            
                 if [ "$new_pid" -lt "$prev_pid" ]; then
                     ((offset--))
-                    echo ${new_proc[@]} $(date +"%A/%d/%m/%Y/%T") Open | tee -a ~/test/git/Project-I.A.N./logs
+                    echo New process detected! ${new_proc[@]}
                     break
                 elif [ "$new_pid" -gt "$prev_pid" ]; then
                     ((offset++))
-                    echo ${prev_proc[@]} $(date +"%A/%d/%m/%Y/%T") Close | tee -a ~/test/git/Project-I.A.N./logs
+                    echo Old process stopped! ${prev_proc[@]}
                 fi
             fi
         done
@@ -49,9 +49,9 @@ function compare_output {
     
     # Finds any old processes that were started after the now most recently started process.
     for item in "${prev_output[@]:$((element + offset + 1))}"; do
-        echo $item $(date +"%A/%d/%m/%Y/%T") Close | tee -a ~/test/git/Project-I.A.N./logs
+        echo Old process stopped! $item
     done
-}
+}        
 
 ps -u $USER -o pid,cmd > ~/.ian/previous_output
 

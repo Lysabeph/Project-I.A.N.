@@ -5,10 +5,10 @@ UPDATE_TIME=10
 function compare_output {
     # Reads the contents of the previous output into the program.
     
-    mapfile -t prev_output < ~/.ian/previous_output
+    mapfile -t prev_output < ~/test/git/Project-I.A.N./Testing/previous_output
     unset prev_output[-1] # Removes the 'ps -u $USER -o pid,cmd' process.
     
-    mapfile -t new_output < ~/.ian/newest_output
+    mapfile -t new_output < ~/test/git/Project-I.A.N./Testing/newest_output
     unset new_output[-1] # Removes the 'ps -u $USER -o pid,cmd' process.
 
     offset=0
@@ -37,11 +37,15 @@ function compare_output {
                 # Determines if a new process was started or if an old process was stopped.            
                 if [ "$new_pid" -lt "$prev_pid" ]; then
                     ((offset--))
-                    echo ${new_proc[@]} $(date +"%A/%d/%m/%Y/%T") Open | tee -a ~/test/git/Project-I.A.N./logs
+                    #echo New process detected! ${new_proc[@]}
+                    #echo ${new_proc[@]} $(date +"%A/%d/%m/%Y/%T") Open >> ~/test/git/Project-I.A.N./logs
+                    echo ${new_proc[@]} $(date +"%A/%d/%m/%Y/%T") Open | tee -a ~/test/git/Project-I.A.N./Testing/logs
                     break
                 elif [ "$new_pid" -gt "$prev_pid" ]; then
                     ((offset++))
-                    echo ${prev_proc[@]} $(date +"%A/%d/%m/%Y/%T") Close | tee -a ~/test/git/Project-I.A.N./logs
+                    #echo Old process stopped! ${prev_proc[@]}
+                    #echo ${prev_proc[@]} $(date +"%A/%d/%m/%Y/%T") Close >> ~/test/git/Project-I.A.N./logs
+                    echo ${prev_proc[@]} $(date +"%A/%d/%m/%Y/%T") Close | tee -a ~/test/git/Project-I.A.N./Testing/logs
                 fi
             fi
         done
@@ -49,16 +53,17 @@ function compare_output {
     
     # Finds any old processes that were started after the now most recently started process.
     for item in "${prev_output[@]:$((element + offset + 1))}"; do
-        echo $item $(date +"%A/%d/%m/%Y/%T") Close | tee -a ~/test/git/Project-I.A.N./logs
+        #echo $item $(date +"%A/%d/%m/%Y/%T") Close >> ~/test/git/Project-I.A.N./logs
+        echo $item $(date +"%A/%d/%m/%Y/%T") Close | tee -a ~/test/git/Project-I.A.N./Testing/logs
     done
 }
 
-ps -u $USER -o pid,cmd > ~/.ian/previous_output
+ps -u $USER -o pid,cmd > ~/test/git/Project-I.A.N./Testing/previous_output
 
 while true; do
-    ps -u $USER -o pid,cmd > ~/.ian/newest_output
+    ps -u $USER -o pid,cmd > ~/test/git/Project-I.A.N./Testing/newest_output
     compare_output
     echo ~~~
     sleep $UPDATE_TIME
-    cat ~/.ian/newest_output > ~/.ian/previous_output
+    cat ~/test/git/Project-I.A.N./Testing/newest_output > ~/test/git/Project-I.A.N./Testing/previous_output
 done
