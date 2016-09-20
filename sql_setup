@@ -1,7 +1,0 @@
-#!/usr/bin/bash
-
-function sql_init {
-    
-    sqlite3 ~/test/Application_History.dba <<EOF
-        CREATE TABLE employee (Name varchar(20),Dept varchar(20),jobTitle varchar(20));
-    EOF
