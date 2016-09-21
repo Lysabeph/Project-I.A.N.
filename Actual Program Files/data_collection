@@ -1,14 +1,21 @@
 #!/usr/bin/bash
 
 UPDATE_TIME=10
+SAVE_LOCATION=~/.ian
+
+if [ ! -d $SAVE_LOCATION ]; then
+    mkdir $SAVE_LOCATION
+fi
+
+sleep 1
 
 function compare_output {
     # Reads the contents of the previous output into the program.
     
-    mapfile -t prev_output < ~/.ian/previous_output
+    mapfile -t prev_output < $SAVE_LOCATION/previous_output
     unset prev_output[-1] # Removes the 'ps -u $USER -o pid,cmd' process.
     
-    mapfile -t new_output < ~/.ian/newest_output
+    mapfile -t new_output < $SAVE_LOCATION/newest_output
     unset new_output[-1] # Removes the 'ps -u $USER -o pid,cmd' process.
 
     offset=0
@@ -37,11 +44,11 @@ function compare_output {
                 # Determines if a new process was started or if an old process was stopped.            
                 if [ "$new_pid" -lt "$prev_pid" ]; then
                     ((offset--))
-                    echo ${new_proc[@]} $(date +"%A/%d/%m/%Y/%T") Open | tee -a ~/test/git/Project-I.A.N./logs
+                    echo ${new_proc[@]} $(date +"%A/%d/%m/%Y/%T") Open | tee -a $SAVE_LOCATION/logs
                     break
                 elif [ "$new_pid" -gt "$prev_pid" ]; then
                     ((offset++))
-                    echo ${prev_proc[@]} $(date +"%A/%d/%m/%Y/%T") Close | tee -a ~/test/git/Project-I.A.N./logs
+                    echo ${prev_proc[@]} $(date +"%A/%d/%m/%Y/%T") Close | tee -a $SAVE_LOCATION/logs
                 fi
             fi
         done
@@ -49,16 +56,16 @@ function compare_output {
     
     # Finds any old processes that were started after the now most recently started process.
     for item in "${prev_output[@]:$((element + offset + 1))}"; do
-        echo $item $(date +"%A/%d/%m/%Y/%T") Close | tee -a ~/test/git/Project-I.A.N./logs
+        echo $item $(date +"%A/%d/%m/%Y/%T") Close | tee -a ~/.ian/logs
     done
 }
 
-ps -u $USER -o pid,cmd > ~/.ian/previous_output
+ps -u $USER -o pid,cmd > $SAVE_LOCATION/previous_output
 
 while true; do
-    ps -u $USER -o pid,cmd > ~/.ian/newest_output
+    ps -u $USER -o pid,cmd > $SAVE_LOCATION/newest_output
     compare_output
     echo ~~~
     sleep $UPDATE_TIME
-    cat ~/.ian/newest_output > ~/.ian/previous_output
+    cat $SAVE_LOCATION/newest_output > $SAVE_LOCATION/previous_output
 done
