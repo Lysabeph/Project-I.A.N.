@@ -20,3 +20,1522 @@ Tuesday/20/09/2016/23:07:21 Closes
 8431 /usr/bin/python2 /usr/bin/ccsm Tuesday/20/09/2016/23:43:49 Close
 8501 pluma Tuesday/20/09/2016/23:45:10 Open
 8501 pluma Tuesday/20/09/2016/23:45:20 Close
+15984
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:15:14
+Close
+15998
+sleep
+10
+Wednesday/28/09/2016/21:15:14
+Open
+16000
+firefox
+Wednesday/28/09/2016/21:15:14
+Open
+16050
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+16000
+tab
+Wednesday/28/09/2016/21:15:14
+Open
+16000
+firefox
+Wednesday/28/09/2016/21:15:24
+Close
+16172
+sleep
+10
+Wednesday/28/09/2016/21:15:24
+Open
+16207
+sleep
+10
+Wednesday/28/09/2016/21:15:34
+Close
+16207
+sleep
+10
+Wednesday/28/09/2016/21:15:34
+Open
+16245
+sleep
+10
+Wednesday/28/09/2016/21:15:44
+Close
+16245
+sleep
+10
+Wednesday/28/09/2016/21:15:44
+Open
+16283
+sleep
+10
+Wednesday/28/09/2016/21:15:54
+Close
+16283
+sleep
+10
+Wednesday/28/09/2016/21:15:54
+Close
+16283
+sleep
+10
+Wednesday/28/09/2016/21:15:54
+Close
+16283
+sleep
+10
+Wednesday/28/09/2016/21:15:54
+Open
+16353
+sleep
+10
+Wednesday/28/09/2016/21:16:04
+Close
+16353
+sleep
+10
+Wednesday/28/09/2016/21:16:04
+Open
+16357
+/opt/google/chrome/chrome
+Wednesday/28/09/2016/21:16:04
+Open
+16364
+cat
+Wednesday/28/09/2016/21:16:04
+Open
+16365
+cat
+Wednesday/28/09/2016/21:16:04
+Open
+16367
+/opt/google/chrome/chrome-sandbox
+/opt/google/chrome/chrome
+--type=zygote
+Wednesday/28/09/2016/21:16:04
+Open
+16368
+/opt/google/chrome/chrome
+--type=zygote
+Wednesday/28/09/2016/21:16:04
+Open
+16370
+/opt/google/chrome/chrome-sandbox
+/opt/google/chrome/nacl_helper
+Wednesday/28/09/2016/21:16:04
+Open
+16371
+/opt/google/chrome/nacl_helper
+Wednesday/28/09/2016/21:16:04
+Open
+16373
+/opt/google/chrome/chrome
+--type=zygote
+Wednesday/28/09/2016/21:16:04
+Open
+16450
+/proc/self/exe
+--type=gpu-process
+--channel=16357.0.1602092719
+--window-depth=24
+--supports-dual-gpus=false
+--gpu-driver-bug-workarounds=4,25,33,36,48,53,64,66
+--disable-accelerated-video-decode
+--gpu-vendor-id=0x10de
+--gpu-device-id=0x1380
+--gpu-driver-vendor=NVIDIA
+--gpu-driver-version=370.28
+--v8-natives-passed-by-fd
+--v8-snapshot-passed-by-fd
+Wednesday/28/09/2016/21:16:04
+Open
+16459
+/opt/google/chrome/chrome
+--type=renderer
+--enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding
+--lang=en-GB
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passwo
+Wednesday/28/09/2016/21:16:04
+Open
+16465
+/proc/self/exe
+--type=gpu-process
+--channel=16357.0.1602092719
+--window-depth=24
+--supports-dual-gpus=false
+--gpu-driver-bug-workarounds=4,25,33,36,48,53,64,66
+--disable-accelerated-video-decode
+--gpu-vendor-id=0x10de
+--gpu-device-id=0x1380
+--gpu-driver-vendor=NVIDIA
+--gpu-driver-version=370.28
+--v8-natives-passed-by-fd
+--v8-snapshot-passed-by-fd
+Wednesday/28/09/2016/21:16:04
+Open
+16470
+/opt/google/chrome/chrome
+--type=renderer
+--enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding
+--lang=en-GB
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw
+Wednesday/28/09/2016/21:16:04
+Open
+16476
+/opt/google/chrome/chrome
+--type=renderer
+--enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding
+--lang=en-GB
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw
+Wednesday/28/09/2016/21:16:04
+Open
+16487
+/opt/google/chrome/chrome
+--type=renderer
+--enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding
+--lang=en-GB
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw
+Wednesday/28/09/2016/21:16:04
+Open
+16488
+/opt/google/chrome/chrome
+--type=renderer
+--enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding
+--lang=en-GB
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw
+Wednesday/28/09/2016/21:16:04
+Open
+16496
+/opt/google/chrome/chrome
+--type=renderer
+--enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding
+--lang=en-GB
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw
+Wednesday/28/09/2016/21:16:04
+Open
+16501
+/opt/google/chrome/chrome
+--type=renderer
+--enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding
+--lang=en-GB
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw
+Wednesday/28/09/2016/21:16:04
+Open
+16586
+/opt/google/chrome/chrome
+--type=renderer
+--enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding
+--lang=en-GB
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw
+Wednesday/28/09/2016/21:16:04
+Open
+16595
+/opt/google/chrome/chrome
+--type=renderer
+--enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding
+--lang=en-GB
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw
+Wednesday/28/09/2016/21:16:04
+Open
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Close
+17079
+sleep
+10
+Wednesday/28/09/2016/21:16:15
+Open
+17487
+sleep
+10
+Wednesday/28/09/2016/21:16:25
+Close
+17487
+sleep
+10
+Wednesday/28/09/2016/21:16:25
+Open
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18420
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:28:14
+Close
+18435
+sleep
+10
+Wednesday/28/09/2016/21:28:14
+Open
+18790
+sleep
+10
+Wednesday/28/09/2016/21:28:24
+Close
+18790
+sleep
+10
+Wednesday/28/09/2016/21:28:24
+Open
+18792
+firefox
+Wednesday/28/09/2016/21:28:24
+Open
+18839
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+18792
+tab
+Wednesday/28/09/2016/21:28:24
+Open
+18792
+firefox
+Wednesday/28/09/2016/21:28:34
+Close
+18963
+sleep
+10
+Wednesday/28/09/2016/21:28:34
+Open
+19008
+sleep
+10
+Wednesday/28/09/2016/21:28:44
+Close
+19008
+sleep
+10
+Wednesday/28/09/2016/21:28:44
+Close
+19008
+sleep
+10
+Wednesday/28/09/2016/21:28:44
+Close
+19008
+sleep
+10
+Wednesday/28/09/2016/21:28:44
+Open
+19114
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:30:48
+Close
+19129
+sleep
+10
+Wednesday/28/09/2016/21:30:48
+Open
+19132
+firefox
+Wednesday/28/09/2016/21:30:48
+Open
+19178
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+19132
+tab
+Wednesday/28/09/2016/21:30:48
+Open
+19301
+sleep
+10
+Wednesday/28/09/2016/21:30:58
+Close
+19301
+sleep
+10
+Wednesday/28/09/2016/21:30:58
+Close
+19301
+sleep
+10
+Wednesday/28/09/2016/21:30:58
+Close
+19301
+sleep
+10
+Wednesday/28/09/2016/21:30:58
+Open
+19393
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:31:31
+Close
+19400
+firefox
+Wednesday/28/09/2016/21:31:31
+Open
+19447
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+19400
+tab
+Wednesday/28/09/2016/21:31:31
+Open
+19506
+sleep
+10
+Wednesday/28/09/2016/21:31:31
+Open
+19595
+sleep
+10
+Wednesday/28/09/2016/21:31:41
+Close
+19595
+sleep
+10
+Wednesday/28/09/2016/21:31:41
+Close
+19595
+sleep
+10
+Wednesday/28/09/2016/21:31:41
+Close
+19595
+sleep
+10
+Wednesday/28/09/2016/21:31:41
+Open
+19827
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:38:41
+Close
+19834
+firefox
+Wednesday/28/09/2016/21:38:41
+Open
+19880
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+19834
+tab
+Wednesday/28/09/2016/21:38:41
+Open
+19940
+sleep
+10
+Wednesday/28/09/2016/21:38:41
+Open
+20032
+sleep
+10
+Wednesday/28/09/2016/21:38:51
+Close
+20032
+sleep
+10
+Wednesday/28/09/2016/21:38:51
+Close
+20032
+sleep
+10
+Wednesday/28/09/2016/21:38:51
+Close
+20032
+sleep
+10
+Wednesday/28/09/2016/21:38:51
+Open
+20129
+/usr/bin/bash
+./trial4.0
+Wednesday/28/09/2016/21:40:28
+Close
+20143
+sleep
+10
+Wednesday/28/09/2016/21:40:28
+Open
+20145
+firefox
+Wednesday/28/09/2016/21:40:28
+Open
+20192
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+20145
+tab
+Wednesday/28/09/2016/21:40:28
+Open
+20315
+sleep
+10
+Wednesday/28/09/2016/21:40:38
+Close
+20315
+sleep
+10
+Wednesday/28/09/2016/21:40:38
+Close
+20315
+sleep
+10
+Wednesday/28/09/2016/21:40:39
+Close
+20315
+sleep
+10
+Wednesday/28/09/2016/21:40:39
+Open
+21116
+/usr/bin/bash
+./trial4.0 Wednesday/28/09/2016/21:44:22 Close
+21122
+firefox Wednesday/28/09/2016/21:44:22 Open
+21168
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+21122
+tab Wednesday/28/09/2016/21:44:22 Open
+21226
+sleep
+10 Wednesday/28/09/2016/21:44:22 Open
+21300
+sleep
+10 Wednesday/28/09/2016/21:44:32 Close
+21300
+sleep
+10 Wednesday/28/09/2016/21:44:32 Close
+21300
+sleep
+10 Wednesday/28/09/2016/21:44:32 Close
+21300
+sleep
+10 Wednesday/28/09/2016/21:44:32 Open
+21802
+/usr/bin/bash
+./trial4.1 Wednesday/28/09/2016/21:56:36 Close
+21809
+21856
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+21809
+21914
+sleep
+21984
+sleep
+10 Wednesday/28/09/2016/21:56:46 Close
+21984
+sleep
+10 Wednesday/28/09/2016/21:56:46 Close
+21984
+sleep
+10 Wednesday/28/09/2016/21:56:46 Close
+21984
+sleep
+22203
+/usr/bin/bash
+./trial4.1 Wednesday/28/09/2016/22:04:10 Close
+22218
+sleep
+22220
+22269
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+22220
+22379
+sleep
+10 Wednesday/28/09/2016/22:04:20 Close
+22379
+sleep
+10 Wednesday/28/09/2016/22:04:20 Close
+22379
+sleep
+10 Wednesday/28/09/2016/22:04:20 Close
+22379
+sleep
+22466
+/usr/bin/bash
+./trial4.1
+Wednesday/28/09/2016/22:05:58
+Close
+22472
+22521
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+22472
+22578
+sleep
+22650
+sleep
+10
+Wednesday/28/09/2016/22:06:08
+Close
+22650
+sleep
+10
+Wednesday/28/09/2016/22:06:08
+Close
+22650
+sleep
+10
+Wednesday/28/09/2016/22:06:08
+Close
+22650
+sleep
+22883
+/usr/bin/bash
+./trial4.1 Wednesday/28/09/2016/22:12:51 Close
+22890
+22949
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+22890
+22953
+sleep
+23058
+sleep
+10 Wednesday/28/09/2016/22:13:01 Close
+23058
+sleep
+10 Wednesday/28/09/2016/22:13:01 Close
+23058
+sleep
+10 Wednesday/28/09/2016/22:13:01 Close
+23058
+sleep
+23135
+/usr/bin/bash
+./trial4.1 Wednesday/28/09/2016/22:14:19 Close
+23141
+23188
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+23141
+23242
+sleep
+23311
+sleep
+10 Wednesday/28/09/2016/22:14:29 Close
+23311
+sleep
+10 Wednesday/28/09/2016/22:14:29 Close
+23311
+sleep
+10 Wednesday/28/09/2016/22:14:29 Close
+23311
+sleep
+23542
+/usr/bin/bash
+./trial4.1 Wednesday/28/09/2016/22:22:04 Close
+23558
+sleep
+23560
+23606
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+23560
+23712
+sleep
+10 Wednesday/28/09/2016/22:22:14 Close
+23712
+sleep
+10 Wednesday/28/09/2016/22:22:14 Close
+23712
+sleep
+10 Wednesday/28/09/2016/22:22:14 Close
+23712
+sleep
+23778
+/usr/bin/bash
+./trial4.1 Wednesday/28/09/2016/22:22:44 Close
+23783
+23840
+sleep
+23842
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+23783
+24006
+/usr/bin/bash
+./trial4.1 Wednesday/28/09/2016/22:25:23 Close
+24014
+24073
+sleep
+24077
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+24014
+${log[@]}
+${new_proc[@]} $(date +"%A/%d/%m/%Y/%T") Open
+24587
+/usr/bin/bash
+./trial4.1 Wednesday/28/09/2016/22:31:00 Close
+(24601
+sleep
+(24603
+(24649
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+24603
+24910
+/usr/bin/bash
+./trial4.1 Wednesday/28/09/2016/22:36:48 Close
+24925 sleep 10 Wednesday/28/09/2016/22:36:48 Open
+24927 firefox Wednesday/28/09/2016/22:36:48 Open
+24975 /usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 24927 tab Wednesday/28/09/2016/22:36:48 Open
+25114
+/usr/bin/bash
+./trial4.1 Wednesday/28/09/2016/22:39:26 Close
+25120 firefox Wednesday/28/09/2016/22:39:26 Open
+25183 sleep 10 Wednesday/28/09/2016/22:39:26 Open
+25185 /usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 25120 tab Wednesday/28/09/2016/22:39:26 Open
+25686
+/usr/bin/bash
+./trial4.2 Wednesday/28/09/2016/22:51:31 Close
+25692 /opt/google/chrome/chrome Wednesday/28/09/2016/22:51:31 Open
+25699 cat Wednesday/28/09/2016/22:51:31 Open
+25700 cat Wednesday/28/09/2016/22:51:31 Open
+25702 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/22:51:31 Open
+25703 /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/22:51:31 Open
+25705 /opt/google/chrome/chrome-sandbox /opt/google/chrome/nacl_helper Wednesday/28/09/2016/22:51:31 Open
+25706 /opt/google/chrome/nacl_helper Wednesday/28/09/2016/22:51:31 Open
+25708 /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/22:51:31 Open
+25785 /opt/google/chrome/chrome --type=gpu-process --channel=25692.0.1838763890 --window-depth=24 --supports-dual-gpus=false --gpu-driver-bug-workarounds=4,25,33,36,48,53,64,66 --disable-accelerated-video-decode --gpu-vendor-id=0x10de --gpu-device-id=0x1380 --gpu-driver-vendor=NVIDIA --gpu-driver-version=370.28 --v8-natives-passed-by-fd --v8-snapshot-passed-by-fd Wednesday/28/09/2016/22:51:31 Open
+25794 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passwo Wednesday/28/09/2016/22:51:31 Open
+25800 /opt/google/chrome/chrome --type=gpu-broker Wednesday/28/09/2016/22:51:31 Open
+25805 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:51:31 Open
+25806 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:51:31 Open
+25822 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:51:31 Open
+25824 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:51:31 Open
+25835 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:51:31 Open
+25843 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:51:31 Open
+25943 sleep 10 Wednesday/28/09/2016/22:51:31 Open
+26017 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:51:31 Open
+26021 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:51:31 Open
+26032 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:51:31 Open
+26047 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:51:31 Open
+26061 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:51:31 Open
+26574
+/usr/bin/bash
+./trial4.2 Wednesday/28/09/2016/22:56:25 Close
+26594 /opt/google/chrome/chrome Wednesday/28/09/2016/22:56:35 Open
+26601 cat Wednesday/28/09/2016/22:56:35 Open
+26602 cat Wednesday/28/09/2016/22:56:35 Open
+26604 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/22:56:35 Open
+26605 /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/22:56:35 Open
+26607 /opt/google/chrome/chrome-sandbox /opt/google/chrome/nacl_helper Wednesday/28/09/2016/22:56:35 Open
+26608 /opt/google/chrome/nacl_helper Wednesday/28/09/2016/22:56:35 Open
+26610 /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/22:56:35 Open
+26685 /opt/google/chrome/chrome --type=gpu-process --channel=26594.0.288161186 --window-depth=24 --supports-dual-gpus=false --gpu-driver-bug-workarounds=4,25,33,36,48,53,64,66 --disable-accelerated-video-decode --gpu-vendor-id=0x10de --gpu-device-id=0x1380 --gpu-driver-vendor=NVIDIA --gpu-driver-version=370.28 --v8-natives-passed-by-fd --v8-snapshot-passed-by-fd Wednesday/28/09/2016/22:56:35 Open
+26695 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passwo Wednesday/28/09/2016/22:56:35 Open
+26702 /opt/google/chrome/chrome --type=gpu-broker Wednesday/28/09/2016/22:56:35 Open
+26707 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:56:35 Open
+26713 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:56:35 Open
+26724 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:56:35 Open
+26725 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:56:35 Open
+26732 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:56:35 Open
+26738 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:56:35 Open
+26832 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:56:35 Open
+26841 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:56:35 Open
+26849 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:56:35 Open
+26857 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/22:56:36 Open
+27498
+./trial4.2 Wednesday/28/09/2016/23:03:55 Close
+27504 /opt/google/chrome/chrome Wednesday/28/09/2016/23:03:55 Open
+27511 cat Wednesday/28/09/2016/23:03:55 Open
+27512 cat Wednesday/28/09/2016/23:03:55 Open
+27514 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/23:03:55 Open
+27515 /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/23:03:55 Open
+27517 /opt/google/chrome/chrome-sandbox /opt/google/chrome/nacl_helper Wednesday/28/09/2016/23:03:55 Open
+27518 /opt/google/chrome/nacl_helper Wednesday/28/09/2016/23:03:55 Open
+27520 /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/23:03:55 Open
+27597 /opt/google/chrome/chrome --type=gpu-process --channel=27504.0.1549116124 --window-depth=24 --supports-dual-gpus=false --gpu-driver-bug-workarounds=4,25,33,36,48,53,64,66 --disable-accelerated-video-decode --gpu-vendor-id=0x10de --gpu-device-id=0x1380 --gpu-driver-vendor=NVIDIA --gpu-driver-version=370.28 --v8-natives-passed-by-fd --v8-snapshot-passed-by-fd Wednesday/28/09/2016/23:03:55 Open
+27652 sleep 10 Wednesday/28/09/2016/23:03:55 Open
+27654 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passwo Wednesday/28/09/2016/23:03:55 Open
+27660 /opt/google/chrome/chrome --type=gpu-broker Wednesday/28/09/2016/23:03:55 Open
+27665 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:03:55 Open
+27671 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:03:55 Open
+27678 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:03:55 Open
+27684 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:03:55 Open
+27686 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:03:55 Open
+27702 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:03:55 Open
+27798 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:03:55 Open
+27804 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:03:55 Open
+27813 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:03:55 Open
+27827 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:03:55 Open
+27846 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:03:55 Open
+28326
+./trial4.2 Wednesday/28/09/2016/23:07:04 Close
+28332 /opt/google/chrome/chrome Wednesday/28/09/2016/23:07:04 Open
+28339 cat Wednesday/28/09/2016/23:07:04 Open
+28342 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/23:07:04 Open
+28346 /opt/google/chrome/nacl_helper Wednesday/28/09/2016/23:07:04 Open
+28641 sleep 10 Wednesday/28/09/2016/23:07:04 Open
+30055
+/usr/bin/bash
+./trial5.0 Wednesday/28/09/2016/23:41:23 Close
+30071 sleep 10 Wednesday/28/09/2016/23:41:23 Open
+30072 /opt/google/chrome/chrome Wednesday/28/09/2016/23:41:23 Open
+30079 cat Wednesday/28/09/2016/23:41:23 Open
+30080 cat Wednesday/28/09/2016/23:41:23 Open
+30082 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/23:41:23 Open
+30083 /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/23:41:23 Open
+30085 /opt/google/chrome/chrome-sandbox /opt/google/chrome/nacl_helper Wednesday/28/09/2016/23:41:23 Open
+30086 /opt/google/chrome/nacl_helper Wednesday/28/09/2016/23:41:23 Open
+30088 /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/23:41:23 Open
+30163 /opt/google/chrome/chrome --type=gpu-process --channel=30072.0.1060132438 --window-depth=24 --supports-dual-gpus=false --gpu-driver-bug-workarounds=4,25,33,36,48,53,64,66 --disable-accelerated-video-decode --gpu-vendor-id=0x10de --gpu-device-id=0x1380 --gpu-driver-vendor=NVIDIA --gpu-driver-version=370.28 --v8-natives-passed-by-fd --v8-snapshot-passed-by-fd Wednesday/28/09/2016/23:41:23 Open
+30175 /opt/google/chrome/chrome --type=gpu-broker Wednesday/28/09/2016/23:41:23 Open
+30176 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passwo Wednesday/28/09/2016/23:41:23 Open
+30186 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:23 Open
+30192 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:23 Open
+30202 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:23 Open
+30204 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:23 Open
+30215 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:23 Open
+30218 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:23 Open
+30319 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:24 Open
+30325 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:24 Open
+30335 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:24 Open
+30359 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:24 Open
+30376 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:24 Open
+30072
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:41:34 Close
+30624 sleep 10 Wednesday/28/09/2016/23:41:34 Open
+30668 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:34 Open
+30668
+/opt/google/chrome/chrome
+--type=renderer
+--enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding
+--lang=en-GB
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:41:44 Close
+30701 firefox Wednesday/28/09/2016/23:41:44 Open
+30732 sleep 10 Wednesday/28/09/2016/23:41:44 Open
+30769 /usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 30701 tab Wednesday/28/09/2016/23:41:44 Open
+30822 eom Wednesday/28/09/2016/23:41:44 Open
+31104
+./trial4.2 Wednesday/28/09/2016/23:43:18 Close
+31109 /opt/google/chrome/chrome Wednesday/28/09/2016/23:43:18 Open
+31116 cat Wednesday/28/09/2016/23:43:18 Open
+31119 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/23:43:18 Open
+31123 /opt/google/chrome/nacl_helper Wednesday/28/09/2016/23:43:18 Open
+31480 sleep 10 Wednesday/28/09/2016/23:43:19 Open
+31887
+./trial4.3 Wednesday/28/09/2016/23:45:02 Close
+31893 /opt/google/chrome/chrome Wednesday/28/09/2016/23:45:02 Open
+31900 cat Wednesday/28/09/2016/23:45:02 Open
+31903 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/23:45:02 Open
+31907 /opt/google/chrome/nacl_helper Wednesday/28/09/2016/23:45:02 Open
+32212 sleep 10 Wednesday/28/09/2016/23:45:02 Open
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:45:12 Close
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Wednesday/28/09/2016/23:45:22 Close
+firefox Wednesday/28/09/2016/23:45:22 Close
+32463 firefox Wednesday/28/09/2016/23:45:22 Open
+32510 /usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 32463 tab Wednesday/28/09/2016/23:45:22 Open
+10 Wednesday/28/09/2016/23:45:32 Close
+10 Wednesday/28/09/2016/23:45:32 Close
+10 Wednesday/28/09/2016/23:45:32 Close
+10 Wednesday/28/09/2016/23:45:42 Close
+401
+pid,cmd Wednesday/28/09/2016/23:47:02 Close
+401 ps -u michael -o pid,cmd Wednesday/28/09/2016/23:47:02 Open
+Wednesday/28/09/2016/23:47:06 Close
+Wednesday/28/09/2016/23:47:06 Close
+Wednesday/28/09/2016/23:47:06 Close
+Wednesday/28/09/2016/23:47:06 Close
+Wednesday/28/09/2016/23:47:06 Close
+Wednesday/28/09/2016/23:47:02 Wednesday/28/09/2016/23:47:06 Close
+ps Wednesday/28/09/2016/23:47:06 Close
+466
+pid,cmd Wednesday/28/09/2016/23:47:25 Close
+466 ps -u michael -o pid,cmd Wednesday/28/09/2016/23:47:25 Open
+./trial4.3 Wednesday/28/09/2016/23:47:35 Close
+10 Wednesday/28/09/2016/23:47:35 Close
+490 sleep 10 Wednesday/28/09/2016/23:47:35 Open
+10 Wednesday/28/09/2016/23:47:45 Close
+10 Wednesday/28/09/2016/23:47:45 Close
+521 /opt/google/chrome/chrome Wednesday/28/09/2016/23:47:45 Open
+528 cat Wednesday/28/09/2016/23:47:45 Open
+531 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/23:47:45 Open
+535 /opt/google/chrome/nacl_helper Wednesday/28/09/2016/23:47:45 Open
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:25 Wednesday/28/09/2016/23:47:49 Close
+ps Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:35 Wednesday/28/09/2016/23:47:49 Close
+sleep Wednesday/28/09/2016/23:47:49 Close
+ps Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:49 Close
+Wednesday/28/09/2016/23:47:45 Wednesday/28/09/2016/23:47:49 Close
+sleep Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+cat Wednesday/28/09/2016/23:47:49 Close
+cat Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome-sandbox Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome-sandbox Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/nacl_helper Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:47:49 Close
+ps Wednesday/28/09/2016/23:47:49 Close
+1442
+pid,cmd Wednesday/28/09/2016/23:49:18 Close
+1442 ps -u michael -o pid,cmd Wednesday/28/09/2016/23:49:18 Open
+Wednesday/28/09/2016/23:49:20 Close
+Wednesday/28/09/2016/23:49:20 Close
+Wednesday/28/09/2016/23:49:20 Close
+Wednesday/28/09/2016/23:49:20 Close
+Wednesday/28/09/2016/23:49:20 Close
+Wednesday/28/09/2016/23:49:18 Wednesday/28/09/2016/23:49:20 Close
+ps Wednesday/28/09/2016/23:49:20 Close
+1778
+pid,cmd Wednesday/28/09/2016/23:52:08 Close
+1778 ps -u michael -o pid,cmd Wednesday/28/09/2016/23:52:08 Open
+1833
+pid,cmd Wednesday/28/09/2016/23:52:29 Close
+1833 ps -u michael -o pid,cmd Wednesday/28/09/2016/23:52:29 Open
+1761
+./trial4.2 Wednesday/28/09/2016/23:56:00 Close
+1767 /opt/google/chrome/chrome Wednesday/28/09/2016/23:56:00 Open
+1774 cat Wednesday/28/09/2016/23:56:00 Open
+1777 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/23:56:00 Open
+1781 /opt/google/chrome/nacl_helper Wednesday/28/09/2016/23:56:00 Open
+1917 sleep 10 Wednesday/28/09/2016/23:56:00 Open
+1931 /usr/lib/GConf/gconfd-2 Wednesday/28/09/2016/23:56:00 Open
+2547
+./trial4.3 Wednesday/28/09/2016/23:57:26 Close
+2553 /opt/google/chrome/chrome Wednesday/28/09/2016/23:57:26 Open
+2560 cat Wednesday/28/09/2016/23:57:26 Open
+2563 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Wednesday/28/09/2016/23:57:26 Open
+2567 /opt/google/chrome/nacl_helper Wednesday/28/09/2016/23:57:26 Open
+2961 sleep 10 Wednesday/28/09/2016/23:57:26 Open
+Wednesday/28/09/2016/23:57:30 Close
+Wednesday/28/09/2016/23:57:30 Close
+Wednesday/28/09/2016/23:57:26 Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+cat Wednesday/28/09/2016/23:57:30 Close
+cat Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome-sandbox Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome-sandbox Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/nacl_helper Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+/opt/google/chrome/chrome Wednesday/28/09/2016/23:57:30 Close
+sleep Wednesday/28/09/2016/23:57:30 Close
+5770
+/usr/bin/bash
+./trial5.0 Thursday/29/09/2016/00:00:38 Close
+5776 /opt/google/chrome/chrome Thursday/29/09/2016/00:00:38 Open
+5783 cat Thursday/29/09/2016/00:00:38 Open
+5784 cat Thursday/29/09/2016/00:00:38 Open
+5786 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Thursday/29/09/2016/00:00:38 Open
+5787 /opt/google/chrome/chrome --type=zygote Thursday/29/09/2016/00:00:38 Open
+5789 /opt/google/chrome/chrome-sandbox /opt/google/chrome/nacl_helper Thursday/29/09/2016/00:00:38 Open
+5790 /opt/google/chrome/nacl_helper Thursday/29/09/2016/00:00:38 Open
+5792 /opt/google/chrome/chrome --type=zygote Thursday/29/09/2016/00:00:38 Open
+5869 /opt/google/chrome/chrome --type=gpu-process --channel=5776.0.185574286 --window-depth=24 --supports-dual-gpus=false --gpu-driver-bug-workarounds=4,25,33,36,48,53,64,66 --disable-accelerated-video-decode --gpu-vendor-id=0x10de --gpu-device-id=0x1380 --gpu-driver-vendor=NVIDIA --gpu-driver-version=370.28 --v8-natives-passed-by-fd --v8-snapshot-passed-by-fd Thursday/29/09/2016/00:00:39 Open
+5881 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passwo Thursday/29/09/2016/00:00:39 Open
+5887 /opt/google/chrome/chrome --type=gpu-broker Thursday/29/09/2016/00:00:39 Open
+5892 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:00:39 Open
+5894 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:00:39 Open
+5908 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:00:39 Open
+5910 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:00:39 Open
+5920 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:00:39 Open
+5927 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:00:39 Open
+6017 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:00:39 Open
+6027 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:00:39 Open
+6029 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:00:39 Open
+6086 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:00:39 Open
+6153 sleep 10 Thursday/29/09/2016/00:00:39 Open
+6158 /opt/google/chrome/chrome --type=renderer --enable-features=IncidentReportingModuleLoadAnalysis<SafeBrowsingIncidentReportingServiceFeatures,IncidentReportingSuspiciousModuleReporting<SafeBrowsingIncidentReportingServiceFeatures,LinuxObsoleteSystemIsEndOfTheLine<LinuxObsoleteSystemIsEndOfTheLine,WebFontsIntervention<WebFontsIntervention,brotli-encoding<BrotliEncoding --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:00:39 Open
+6522
+./trial5.0 Thursday/29/09/2016/00:03:14 Close
+6603 sleep 10 Thursday/29/09/2016/00:03:14 Open
+6604 /opt/google/chrome/chrome Thursday/29/09/2016/00:03:14 Open
+6611 cat Thursday/29/09/2016/00:03:14 Open
+6614 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Thursday/29/09/2016/00:03:14 Open
+6618 /opt/google/chrome/nacl_helper Thursday/29/09/2016/00:03:14 Open
+Thursday/29/09/2016/00:03:16 Close
+Thursday/29/09/2016/00:03:16 Close
+Thursday/29/09/2016/00:03:14 Thursday/29/09/2016/00:03:16 Close
+sleep Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+cat Thursday/29/09/2016/00:03:16 Close
+cat Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome-sandbox Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome-sandbox Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/nacl_helper Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:03:16 Close
+7520
+/usr/bin/bash
+./trial4.0
+Thursday/29/09/2016/00:08:37
+Close
+7528
+firefox
+Thursday/29/09/2016/00:08:37
+Open
+7570
+sleep
+10
+Thursday/29/09/2016/00:08:37
+Open
+7591
+/usr/lib/firefox/plugin-container
+-greomni
+/usr/lib/firefox/omni.ja
+-appomni
+/usr/lib/firefox/browser/omni.ja
+-appdir
+/usr/lib/firefox/browser
+7528
+tab
+Thursday/29/09/2016/00:08:37
+Open
+7722
+sleep
+10
+Thursday/29/09/2016/00:08:47
+Close
+7722
+sleep
+10
+Thursday/29/09/2016/00:08:47
+Close
+7722
+sleep
+10
+Thursday/29/09/2016/00:08:47
+Close
+7722
+sleep
+10
+Thursday/29/09/2016/00:08:47
+Open
+7817
+/usr/bin/bash
+./trial4.1 Thursday/29/09/2016/00:09:52 Close
+7834 sleep 10 Thursday/29/09/2016/00:09:52 Open
+7836 firefox Thursday/29/09/2016/00:09:52 Open
+7882 /usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 7836 tab Thursday/29/09/2016/00:09:52 Open
+7836
+firefox Thursday/29/09/2016/00:10:02 Close
+7967 sleep 10 Thursday/29/09/2016/00:10:02 Open
+8043
+./trial4.2 Thursday/29/09/2016/00:11:50 Close
+8051 firefox Thursday/29/09/2016/00:11:50 Open
+8099 /usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 8051 tab Thursday/29/09/2016/00:11:50 Open
+8153 sleep 10 Thursday/29/09/2016/00:11:50 Open
+8324
+./trial5.0 Thursday/29/09/2016/00:14:12 Close
+8331 /opt/google/chrome/chrome Thursday/29/09/2016/00:14:12 Open
+8338 cat Thursday/29/09/2016/00:14:12 Open
+8341 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Thursday/29/09/2016/00:14:12 Open
+8345 /opt/google/chrome/nacl_helper Thursday/29/09/2016/00:14:12 Open
+8688 sleep 10 Thursday/29/09/2016/00:14:12 Open
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:14:22 Close
+10 Thursday/29/09/2016/00:14:32 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:42 Close
+10 Thursday/29/09/2016/00:14:52 Close
+10 Thursday/29/09/2016/00:15:02 Close
+10 Thursday/29/09/2016/00:15:12 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:14:12 Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+cat Thursday/29/09/2016/00:15:20 Close
+cat Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome-sandbox Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome-sandbox Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/nacl_helper Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+sleep Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+/opt/google/chrome/chrome Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:14:22 Thursday/29/09/2016/00:15:20 Close
+sleep Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:14:32 Thursday/29/09/2016/00:15:20 Close
+sleep Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:14:42 Thursday/29/09/2016/00:15:20 Close
+sleep Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:14:52 Thursday/29/09/2016/00:15:20 Close
+sleep Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:02 Thursday/29/09/2016/00:15:20 Close
+sleep Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:20 Close
+Thursday/29/09/2016/00:15:12 Thursday/29/09/2016/00:15:20 Close
+sleep Thursday/29/09/2016/00:15:20 Close
+9608
+./trial4.3 Thursday/29/09/2016/00:16:57 Close
+9623 sleep 10 Thursday/29/09/2016/00:16:57 Open
+9624 /opt/google/chrome/chrome Thursday/29/09/2016/00:16:57 Open
+9631 cat Thursday/29/09/2016/00:16:57 Open
+9634 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Thursday/29/09/2016/00:16:57 Open
+9638 /opt/google/chrome/nacl_helper Thursday/29/09/2016/00:16:57 Open
+9624
+/opt/google/chrome/chrome Thursday/29/09/2016/00:17:08 Close
+10133 sleep 10 Thursday/29/09/2016/00:17:08 Open
+10216
+10 Thursday/29/09/2016/00:17:18 Close
+10216 sleep 10 Thursday/29/09/2016/00:17:18 Open
+9856
+--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*DataReductionProxyConfigService/Enabled/*ExtensionActionRedesign/Enabled/*ExtensionDeveloperModeWarning/Default/*GFE/Default/InstanceID/Enabled/LinuxObsoleteSystemIsEndOfTheLine/EndOfLine/MaterialDesignDownloads/Enabled/OfferUploadCreditCards/Disabled/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*Passw Thursday/29/09/2016/00:17:28 Close
+10 Thursday/29/09/2016/00:17:28 Close
+10246 sleep 10 Thursday/29/09/2016/00:17:28 Open
+10277
+10 Thursday/29/09/2016/00:17:38 Close
+10277 sleep 10 Thursday/29/09/2016/00:17:38 Open
+10357
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10 Thursday/29/09/2016/00:17:48 Close
+10357 sleep 10 Thursday/29/09/2016/00:17:48 Open
+10523
+10 Thursday/29/09/2016/00:17:58 Close
+10523 sleep 10 Thursday/29/09/2016/00:17:58 Open

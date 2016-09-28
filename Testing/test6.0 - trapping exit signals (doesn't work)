@@ -1,15 +1,15 @@
 #!/usr/bin/bash
 
-trap cleanup EXIT
+while true; do
+    echo Running as normal.
+    sleep 5
+done
 
 function cleanup {
     echo Exiting
 }
 
-while true; do
-    echo Running as normal.
-    sleep 5
-done
+trap cleanup EXIT
 
 
 
