@@ -1,13 +1,27 @@
 #!/usr/bin/bash
 
+# Defines all constants.
 UPDATE_TIME=10
 BLACKLIST=( /bin/bash )
-declare -a OPEN
+SAVE_PATH=~/test/git/Project-I.A.N./Testing
+
+# Defines all global stores.
+declare -A open_program_dict
+declare -a open_program_array
+
+if [ ! -d $SAVE_PATH ]; then
+    mkdir $SAVE_PATH
+fi
+
+sleep 1
 
 function exit_trap_cleanup {
+    for i in "${open_program_array[@]}"; do
+        echo "*** $i"
+    done
     echo Starting cleanup.
-    for item in "${OPEN[@]}"; do
-        echo ${item[@]} $(date +"%A/%d/%m/%Y/%T") Close | tee -a ~/test/git/Project-I.A.N./Testing/logs
+    for item in "${open_program_array[@]}"; do
+        echo "$item $(date +"%A/%d/%m/%Y/%T") Close" | tee -a $SAVE_PATH/logs
     done
     echo Finished cleanup.
     echo Exiting.
@@ -18,10 +32,10 @@ trap exit_trap_cleanup EXIT
 function compare_output {
     # Reads the contents of the previous output into the program.
     
-    mapfile -t prev_output < ~/test/git/Project-I.A.N./Testing/previous_output
+    mapfile -t prev_output < $SAVE_PATH/previous_output
     unset prev_output[-1] # Removes the 'ps -u $USER -o pid,cmd' process.
     
-    mapfile -t new_output < ~/test/git/Project-I.A.N./Testing/newest_output
+    mapfile -t new_output < $SAVE_PATH/newest_output
     unset new_output[-1] # Removes the 'ps -u $USER -o pid,cmd' process.
 
     offset=0
@@ -51,19 +65,11 @@ function compare_output {
                 # Determines if a new process was started or if an old process was stopped.            
                 if [ "$new_pid" -lt "$prev_pid" ]; then
                     ((offset--))
-                    #echo New process detected! ${new_proc[@]}
-                    #echo ${new_proc[@]} $(date +"%A/%d/%m/%Y/%T") Open >> ~/test/git/Project-I.A.N./logs
-                    #echo ${new_proc[@]} $(date +"%A/%d/%m/%Y/%T") Open | tee -a ~/test/git/Project-I.A.N./Testing/logs
                     log=("${log[@]}" "${new_proc[*]} $(date +"%A/%d/%m/%Y/%T") Open")
-                    echo "${log[-2]} ${log[-1]}"
                     break
                 elif [ "$new_pid" -gt "$prev_pid" ]; then
                     ((offset++))
-                    #echo Old process stopped! ${prev_proc[@]}
-                    #echo ${prev_proc[@]} $(date +"%A/%d/%m/%Y/%T") Close >> ~/test/git/Project-I.A.N./logs
-                    #echo ${prev_proc[@]} $(date +"%A/%d/%m/%Y/%T") Close | tee -a ~/test/git/Project-I.A.N./Testing/logs
-                    log=("${log[@]}" "${new_proc[@]} $(date +"%A/%d/%m/%Y/%T") Close")
-                    echo "${log[-2]} ${log[-1]}"
+                    log=("${log[@]}" "${prev_proc[*]} $(date +"%A/%d/%m/%Y/%T") Close")
                 fi
             fi
         done
@@ -71,10 +77,7 @@ function compare_output {
     
     # Finds any old processes that were started after the now most recently started process.
     for item in "${prev_output[@]:$((element + offset + 1))}"; do
-        #echo $item $(date +"%A/%d/%m/%Y/%T") Close >> ~/test/git/Project-I.A.N./logs
-        #echo $item $(date +"%A/%d/%m/%Y/%T") Close | tee -a ~/test/git/Project-I.A.N./Testing/logs
-        log=("${log[@]}" "${new_proc[@]} $(date +"%A/%d/%m/%Y/%T") Close")
-        echo "${log[-2]} ${log[-1]}"
+        log=("${log[@]}" "${prev_proc[*]} $(date +"%A/%d/%m/%Y/%T") Close")
     done
 
     local -a temp=("${log[@]}")
@@ -90,34 +93,49 @@ function compare_output {
                 break
             fi
         done
-        local present=false
-        for element in "${!OPEN[@]}"; do
-            if [[ "${OPEN[$element]}" == "${record[$index]}" ]]; then
-                if [[ "${record[-1]}" != "Close" ]]; then
-                    unset log[$item]
+        for pid in "${!open_program_dict[@]}"; do
+            name=${open_program_dict[$pid]}
+            if [[ "$name" == "${record[$index]}" ]]; then
+                local present=true
+                if [[ "${record[0]}" == "$pid" ]]; then
+                    unset open_program_dict[$pid]
                 else
-                    unset OPEN[$element]
-                present=true
+                    unset log[$item]
+                break
                 fi
             fi
         done
-        if [ !$present ]; then
-            OPEN=("${OPEN[@]}" "${record[$index]}")
+        echo "$present"
+        if ! [ $present ]; then
+            if [ "${record[-1]}" == "Open" ]; then
+                open_program_dict["${record[0]}"]="${record[$index]}"
+                temp2=${record[@]:0:${#record[@]}-2}
+                open_program_array=("${open_program_array[@]}" "$temp2")
+                unset temp2
+            else
+                unset log[$item]
+            fi
+        else
+            unset present
         fi
     done
+    unset temp
     for item in "${log[@]}"; do
-        echo $item | tee -a ~/test/git/Project-I.A.N./Testing/logs
+        echo $item | tee -a $SAVE_PATH/logs
     done
 }
 
-ps -u $USER -o pid,cmd > ~/test/git/Project-I.A.N./Testing/previous_output
+ps -u $USER -o pid,cmd > $SAVE_PATH/previous_output
 
 while true; do
-    ps -u $USER -o pid,cmd > ~/test/git/Project-I.A.N./Testing/newest_output
+    ps -u $USER -o pid,cmd > $SAVE_PATH/newest_output
     compare_output
+    echo Open Programs
     echo ~~~~~
-    echo ${OPEN[@]}
-    echo ~~~
+    for i in "${!open_program_dict[@]}"; do
+        echo $i ${open_program_dict[$i]}
+    done
+    echo ~~~~~
     sleep $UPDATE_TIME
-    cat ~/test/git/Project-I.A.N./Testing/newest_output > ~/test/git/Project-I.A.N./Testing/previous_output
+    cat $SAVE_PATH/newest_output > $SAVE_PATH/previous_output
 done
