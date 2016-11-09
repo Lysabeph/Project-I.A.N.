@@ -1,0 +1,34 @@
+#!/usr/bin/python3
+
+import sqlite3
+import time
+
+HOUR = 3600
+DAY = 86400
+WEEK = 604800
+
+UPDATE_INTERVAL = HOUR # Default is every hour.
+
+current_epoch = int(time.time())
+lower_epoch = current_epoch-(current_epoch%UPDATE_INTERVAL)
+upper_epoch = lower_time + UPDATE_INTERVAL
+
+time_intervals = [DAY, WEEK, 2 * WEEK]
+
+conn = sqlite3.connect('test.db')
+c = conn.cursor()
+
+programs = []
+
+for record in c.execute("SELECT * FROM Programs;"):
+     programs.append(record[0])
+
+with open("open_programs", "r") as file:
+    open_programs = file.readlines()
+
+for program in programs:
+
+    if "\'" + program + "\'" in open_programs:
+        continue
+
+    

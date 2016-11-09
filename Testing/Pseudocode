@@ -1,0 +1,63 @@
+# All shell commands will be enclosed by a pair of tildes ~ character.
+
+# Initialises the constants for the program.
+UPDATE_TIME <-- 10
+SAVE_PATH <-- ~/.ian
+open_program_dict <-- {} # Where {} denotes an empty data dictionary.
+open_program_array <-- []
+
+IF NOT SAVE_PATH THEN
+    ~mkdir SAVE_PATH~ # Creates a directory, as specified by SAVE_PATH, for the program data to be stored.
+ENDIF
+
+    ~ps -u $USER -o pid,comm,lstart,cmd > $SAVE_PATH/previous_output~
+
+WHILE TRUE
+    ~ps -u $USER -o pid,comm,lstart,cmd > $SAVE_PATH/newest_output~
+
+    FOR 1 TO num <-- LEN(SAVE_PATH/previous_ouput)
+        prev_output[n+1] <-- READLINE(SAVE_PATH/previous_output, num) # Where n+1 is the next available element in the array.
+    ENDFOR
+    prev_output[-1] <-- NULL
+
+    FOR 1 TO num <-- LEN(SAVE_PATH/newest_ouput)
+        new_output[n+1] <-- READLINE(SAVE_PATH/newest_output, num)
+    ENDFOR
+    new_output[-1] <-- NULL
+
+    offset <-- 0
+    log <-- []
+
+    FOR 1 TO element <-- LEN(new_output)
+        
+        WHILE TRUE
+            prev_proc <-- [prev_output[element + offset]] # Where one element of prev_output is split into multiple elements in prev_proc.
+            new_proc <-- [prev_output[element]]
+
+            IF prev_proc = new_proc THEN
+                BREAK
+            ELSE
+                prev_pid <-- prev_proc[0]
+
+                IF prev_pid = 0 THEN
+                    prec_pid <-- ~cat /proc/sys/kernel/pid_max + 1~
+                ENDIF
+            
+                new_pid <-- new_proc[0]
+            
+                IF new_pid < prev_pid THEN
+                    offset <-- offset - 1
+                    log[n+1] <-- new_proc + ~$(date +"%A/%d/%m/%Y/%T")~ + "Open"
+                    BREAK
+                ELSEIF new_pid > prev_pid THEN
+                    offset <-- offset + 1
+                    log[n+1] <-- prev_proc + ~$(date +"%A/%d/%m/%Y/%T")~ + "Close"
+                ENDIF
+            
+            ENDIF
+
+        ENDWHILE
+
+    ENDFOR
+
+    

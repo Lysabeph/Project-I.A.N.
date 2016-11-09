@@ -2431,3 +2431,69 @@ sleep Wednesday/05/10/2016/23:03:38 Close
 9362 sleep 10 Wednesday/05/10/2016/23:14:43 Close
 9374 rhythmbox Wednesday/05/10/2016/23:14:43 Close
 9398 sleep 10 Wednesday/05/10/2016/23:14:43 Close
+5238 sleep sleep 10 Sunday/16/10/2016/13:57:55 Open
+5242 firefox firefox Sunday/16/10/2016/13:57:55 Open
+5286 Web Content /usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 5242 tab Sunday/16/10/2016/13:57:55 Open
+5238 sleep sleep 10 Sunday/16/10/2016/13:58:05 Close
+5242 firefox firefox Sunday/16/10/2016/13:58:05 Close
+5286 Web Content /usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 5242 tab Sunday/16/10/2016/13:58:05 Close
+5366 sleep sleep 10 Sunday/16/10/2016/13:58:05 Open
+5238 sleep sleep 10 Sunday/16/10/2016/13:58:10 Close
+5242 firefox firefox Sunday/16/10/2016/13:58:10 Close
+5286 Web Content /usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 5242 tab Sunday/16/10/2016/13:58:10 Close
+5366 sleep sleep 10 Sunday/16/10/2016/13:58:10 Close
+5472 chrome /opt/google/chrome/chrome Sunday/16/10/2016/14:00:03 Open
+5479 cat cat Sunday/16/10/2016/14:00:03 Open
+5482 chrome-sandbox /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Sunday/16/10/2016/14:00:03 Open
+5486 nacl_helper /opt/google/chrome/nacl_helper Sunday/16/10/2016/14:00:03 Open
+5726 sleep sleep 10 Sunday/16/10/2016/14:00:03 Open
+5472 chrome /opt/google/chrome/chrome Sunday/16/10/2016/14:00:13 Close
+5479 cat cat Sunday/16/10/2016/14:00:13 Close
+5482 chrome-sandbox /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Sunday/16/10/2016/14:00:13 Close
+5486 nacl_helper /opt/google/chrome/nacl_helper Sunday/16/10/2016/14:00:13 Close
+5726 sleep sleep 10 Sunday/16/10/2016/14:00:13 Close
+5998 sleep sleep 10 Sunday/16/10/2016/14:00:13 Open
+5472 chrome /opt/google/chrome/chrome Sunday/16/10/2016/14:00:17 Close
+5479 cat cat Sunday/16/10/2016/14:00:17 Close
+5482 chrome-sandbox /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Sunday/16/10/2016/14:00:17 Close
+5486 nacl_helper /opt/google/chrome/nacl_helper Sunday/16/10/2016/14:00:17 Close
+5726 sleep sleep 10 Sunday/16/10/2016/14:00:17 Close
+5998 sleep sleep 10 Sunday/16/10/2016/14:00:17 Close
+6744 chrome /opt/google/chrome/chrome Sunday/16/10/2016/14:02:11 Open
+6751 cat cat Sunday/16/10/2016/14:02:11 Open
+6754 chrome-sandbox /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Sunday/16/10/2016/14:02:11 Open
+6758 nacl_helper /opt/google/chrome/nacl_helper Sunday/16/10/2016/14:02:11 Open
+7042 sleep sleep 10 Sunday/16/10/2016/14:02:11 Open
+6744 chrome /opt/google/chrome/chrome Sunday/16/10/2016/14:02:21 Close
+6751 cat cat Sunday/16/10/2016/14:02:21 Close
+6754 chrome-sandbox /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Sunday/16/10/2016/14:02:21 Close
+6758 nacl_helper /opt/google/chrome/nacl_helper Sunday/16/10/2016/14:02:21 Close
+7042 sleep sleep 10 Sunday/16/10/2016/14:02:21 Close
+7278 sleep sleep 10 Sunday/16/10/2016/14:02:21 Open
+6744 chrome /opt/google/chrome/chrome Sunday/16/10/2016/14:02:25 Close
+6751 cat cat Sunday/16/10/2016/14:02:25 Close
+6754 chrome-sandbox /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Sunday/16/10/2016/14:02:25 Close
+6758 nacl_helper /opt/google/chrome/nacl_helper Sunday/16/10/2016/14:02:25 Close
+7042 sleep sleep 10 Sunday/16/10/2016/14:02:25 Close
+7278 sleep sleep 10 Sunday/16/10/2016/14:02:25 Close
+7396 firefox firefox Sunday/16/10/2016/14:03:52 Open
+7443 Web Content /usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 7396 tab Sunday/16/10/2016/14:03:52 Open
+7463 sleep sleep 10 Sunday/16/10/2016/14:03:52 Open
+7396 firefox firefox Sunday/16/10/2016/14:04:02 Close
+7443 Web Content /usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 7396 tab Sunday/16/10/2016/14:04:02 Close
+7463 sleep sleep 10 Sunday/16/10/2016/14:04:02 Close
+7518 sleep sleep 10 Sunday/16/10/2016/14:04:02 Open
+7518 sleep sleep 10 Sunday/16/10/2016/14:04:12 Close
+7539 chrome /opt/google/chrome/chrome Sunday/16/10/2016/14:04:12 Open
+7546 cat cat Sunday/16/10/2016/14:04:12 Open
+7549 chrome-sandbox /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Sunday/16/10/2016/14:04:12 Open
+7553 nacl_helper /opt/google/chrome/nacl_helper Sunday/16/10/2016/14:04:12 Open
+7746 sleep sleep 10 Sunday/16/10/2016/14:04:12 Open
+7746 sleep sleep 10 Sunday/16/10/2016/14:04:22 Close
+7960 sleep sleep 10 Sunday/16/10/2016/14:04:22 Open
+7539 chrome /opt/google/chrome/chrome Sunday/16/10/2016/14:04:32 Close
+7546 cat cat Sunday/16/10/2016/14:04:32 Close
+7549 chrome-sandbox /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote Sunday/16/10/2016/14:04:32 Close
+7553 nacl_helper /opt/google/chrome/nacl_helper Sunday/16/10/2016/14:04:32 Close
+7960 sleep sleep 10 Sunday/16/10/2016/14:04:32 Close
+8102 sleep sleep 10 Sunday/16/10/2016/14:04:32 Open
