@@ -10,10 +10,10 @@ IF NOT SAVE_PATH THEN
     ~mkdir SAVE_PATH~ # Creates a directory, as specified by SAVE_PATH, for the program data to be stored.
 ENDIF
 
-    ~ps -u $USER -o pid,comm,lstart,cmd > $SAVE_PATH/previous_output~ # Saves the output of the system commnd to a file - previous_output.
+~ps -u $USER -o pid,comm,lstart,cmd > $SAVE_PATH/previous_output~ # Saves the output of the system commnd to a file - previous_output.
 
 WHILE TRUE
-    ~ps -u $USER -o pid,comm,lstart,cmd > $SAVE_PATH/newest_output~ # Saves the output of the system commnd to a file - previous_output.
+    ~ps -u $USER -o pid,comm,lstart,cmd > $SAVE_PATH/newest_output~ # Saves the output of the system commnd to a file - newest_output.
 
     # Reads the data from the previous_output file into an array.
     FOR 1 TO num <-- LEN(SAVE_PATH/previous_ouput)
