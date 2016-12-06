@@ -56,6 +56,8 @@ while upper_epoch > first_epoch:
                             AND ProgramLogs.DateTime>='{0}'
                             AND ProgramLogs.DateTime<'{1}';
                         """.format(str(lower_epoch), str(upper_epoch))):
+        log = list(log)
+        log[2] = (log[2]//3600 + 1) * 3600
         range_logs.append(log[0])
         logs.append(log)
 
@@ -75,6 +77,7 @@ while upper_epoch > first_epoch:
     else:
         condition_logs.append([])
 
+    times_run.append(0)
     lower_epoch -= 86400 # A day.
     upper_epoch -= 86400
 
@@ -101,8 +104,16 @@ for program in programs:
     for record in logs:
         if record[2] < earliest_epoch:
             program_logs.remove(record)
-        elif record[0] == program:
-            program_log_counter += 1
+
+    lower_epoch, upper_epoch = get_time_range(current_epoch)
+    times_run = 0
+    possible_times_run = 0
+
+    while upper_epoch > earliest_epoch:
+        for record in logs:
+            if record[0] == program:
+                times_run += 1
+        possible_times_run += 1
 
     times_run.append(program_log_counter)
 
