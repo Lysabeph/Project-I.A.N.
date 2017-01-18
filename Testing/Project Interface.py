@@ -1,8 +1,9 @@
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
+from gi.repository import GdkPixbuf
+
 import os
-import subprocess
 
 def get_resource_path(rel_path):
     dir_of_py_file = os.path.dirname(__file__)
@@ -19,8 +20,7 @@ class mywindow(Gtk.Window):
         notebook.set_tab_pos(Gtk.PositionType(0))
         self.add(notebook)
 
-        p = subprocess.check_output(["gifsicle --scale 3.3 gear_animation.gif"], shell=True)
-        pixbuf_animation = Gtk.gdk.pixbufAnimation(p)
+        pixbuf_animation = GdkPixbuf.PixbufAnimation()#"gear_animation.gif")
         
         settings_image = Gtk.Image()
         settings_image.set_from_animation(pixbuf_animation)
