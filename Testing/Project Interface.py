@@ -20,17 +20,19 @@ class mywindow(Gtk.Window):
         notebook.set_tab_pos(Gtk.PositionType(0))
         self.add(notebook)
 
-        pixbuf_animation = GdkPixbuf.PixbufAnimation()#"gear_animation.gif")
+        self.settings_image_dynamic = Gtk.Image()
+        self.settings_image_dynamic.set_from_file("cog_dynamic_32x32.gif")
+        self.settings_image_dynamic.set_pixel_size(16)
+        self.settings_image_still = Gtk.Image()
+        self.settings_image_still.set_from_file("cog_still_32x32.png")
         
-        settings_image = Gtk.Image()
-        settings_image.set_from_animation(pixbuf_animation)
-        
-        settings_button = Gtk.Button()
-        settings_button.add(settings_image)
-        settings_button.set_size_request(50,50)
+        self.settings_button = Gtk.Button()
+        self.settings_button.set_image(self.settings_image_still)
+        self.settings_button.set_size_request(32,32)
+        self.settings_button.connect("clicked", self.settings_button_clicked)
 
         hbox_mini = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
-        hbox_mini.pack_start(settings_button, False, True, 0)
+        hbox_mini.pack_start(self.settings_button, False, True, 0)
 
         page1 = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         page1.set_border_width(10)
@@ -75,6 +77,9 @@ class mywindow(Gtk.Window):
         hbox.pack_end(apply_button, True, True, 0)
         vbox.pack_start(stack, True, True, 0)
         vbox.pack_start(hbox, False, True, 0)
+
+    def settings_button_clicked(self, button):
+        self.settings_button.set_image(self.settings_image_dynamic)
 
 window = mywindow()
 window.set_default_size(1000, 500)
