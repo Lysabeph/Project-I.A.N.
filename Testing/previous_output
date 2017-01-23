@@ -1,56 +1,66 @@
   PID¬COMMAND        ¬CMD
- 1632¬systemd        ¬/lib/systemd/systemd --user
- 1633¬(sd-pam)       ¬(sd-pam)
- 1638¬gnome-keyring-d¬/usr/bin/gnome-keyring-daemon --daemonize --login
- 1715¬mate-session   ¬mate-session
- 1786¬ssh-agent      ¬/usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
- 1789¬dbus-launch    ¬/usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
- 1790¬dbus-daemon    ¬/usr/bin/dbus-daemon --fork --print-pid 6 --print-address 9 --session
- 1800¬at-spi-bus-laun¬/usr/lib/at-spi2-core/at-spi-bus-launcher
- 1804¬gvfsd          ¬/usr/lib/gvfs/gvfsd
- 1809¬gvfsd-fuse     ¬/usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
- 1812¬dbus-daemon    ¬/usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
- 1814¬at-spi2-registr¬/usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
- 1821¬dconf-service  ¬/usr/lib/dconf/dconf-service
- 1835¬mate-settings-d¬/usr/bin/mate-settings-daemon
- 1839¬marco          ¬marco
- 1852¬pulseaudio     ¬/usr/bin/pulseaudio --start --log-target=syslog
- 1853¬mate-panel     ¬mate-panel
- 1860¬caja           ¬caja
- 1863¬mintmenu       ¬mintmenu
- 1867¬clock-applet   ¬/usr/lib/mate-panel/clock-applet
- 1869¬notification-ar¬/usr/lib/mate-panel/notification-area-applet
- 1870¬wnck-applet    ¬/usr/lib/mate-panel/wnck-applet
- 1891¬mate-volume-con¬mate-volume-control-applet
- 1893¬nm-applet      ¬nm-applet
- 1898¬mate-power-mana¬mate-power-manager
- 1910¬python2        ¬python2 /usr/lib/nvidia-prime-applet/nvidia-prime
- 1914¬polkit-mate-aut¬/usr/lib/x86_64-linux-gnu/polkit-mate-authentication-agent-1
- 1917¬mate-screensave¬mate-screensaver
- 1920¬blueberry-tray ¬/usr/bin/python /usr/bin/blueberry-tray
- 1923¬applet.py      ¬/usr/bin/python3 /usr/share/system-config-printer/applet.py
- 1924¬sh             ¬sh -c /usr/lib/blueberry/blueberry-tray.py
- 1926¬python2        ¬python2 /usr/lib/blueberry/blueberry-tray.py
- 1967¬gvfs-udisks2-vo¬/usr/lib/gvfs/gvfs-udisks2-volume-monitor
- 1979¬gvfsd-trash    ¬/usr/lib/gvfs/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
- 2031¬rfkill         ¬/usr/sbin/rfkill event
- 2039¬gvfs-goa-volume¬/usr/lib/gvfs/gvfs-goa-volume-monitor
- 2050¬gvfs-afc-volume¬/usr/lib/gvfs/gvfs-afc-volume-monitor
- 2056¬gvfs-mtp-volume¬/usr/lib/gvfs/gvfs-mtp-volume-monitor
- 2061¬gvfs-gphoto2-vo¬/usr/lib/gvfs/gvfs-gphoto2-volume-monitor
- 2077¬mate-terminal  ¬mate-terminal
- 2082¬bash           ¬bash
- 2101¬mintupdate-laun¬/usr/bin/python3 /usr/bin/mintupdate-launcher
- 2104¬sh             ¬sh -c /usr/lib/linuxmint/mintUpdate/mintUpdate.py
- 2105¬mintUpdate     ¬/usr/bin/python3 /usr/lib/linuxmint/mintUpdate/mintUpdate.py
- 2174¬gvfsd-metadata ¬/usr/lib/gvfs/gvfsd-metadata
- 2795¬xed            ¬xed /home/michael/git/Project-I.A.N./Testing/trial8.4
- 3108¬trial8.3       ¬/bin/bash ./trial8.3
- 3134¬firefox        ¬/usr/lib/firefox/firefox
- 3160¬gconfd-2       ¬/usr/lib/x86_64-linux-gnu/gconf/gconfd-2
- 3188¬Web Content    ¬/usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3134 true tab
- 3273¬session-install¬/usr/bin/python3 /usr/bin/session-installer
- 3296¬gvfsd-network  ¬/usr/lib/gvfs/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
- 3310¬gvfsd-dnssd    ¬/usr/lib/gvfs/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
- 3932¬sqlitebrowser  ¬sqlitebrowser /home/michael/git/Project-I.A.N./Testing/test.db
- 3985¬ps             ¬ps -u michael -o %p¬%c¬ -o cmd
+ 1375¬systemd        ¬/lib/systemd/systemd --user
+ 1376¬(sd-pam)       ¬(sd-pam)
+ 1381¬gnome-keyring-d¬/usr/bin/gnome-keyring-daemon --daemonize --login
+ 1458¬mate-session   ¬mate-session
+ 1529¬ssh-agent      ¬/usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
+ 1532¬dbus-launch    ¬/usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
+ 1533¬dbus-daemon    ¬/usr/bin/dbus-daemon --fork --print-pid 6 --print-address 9 --session
+ 1543¬at-spi-bus-laun¬/usr/lib/at-spi2-core/at-spi-bus-launcher
+ 1547¬gvfsd          ¬/usr/lib/gvfs/gvfsd
+ 1552¬gvfsd-fuse     ¬/usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ 1561¬dbus-daemon    ¬/usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ 1565¬at-spi2-registr¬/usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ 1571¬dconf-service  ¬/usr/lib/dconf/dconf-service
+ 1578¬mate-settings-d¬/usr/bin/mate-settings-daemon
+ 1582¬marco          ¬marco
+ 1586¬mate-panel     ¬mate-panel
+ 1593¬pulseaudio     ¬/usr/bin/pulseaudio --start --log-target=syslog
+ 1598¬caja           ¬caja
+ 1601¬mintmenu       ¬mintmenu
+ 1603¬wnck-applet    ¬/usr/lib/mate-panel/wnck-applet
+ 1605¬clock-applet   ¬/usr/lib/mate-panel/clock-applet
+ 1607¬notification-ar¬/usr/lib/mate-panel/notification-area-applet
+ 1612¬mate-power-mana¬mate-power-manager
+ 1617¬polkit-mate-aut¬/usr/lib/x86_64-linux-gnu/polkit-mate-authentication-agent-1
+ 1618¬applet.py      ¬/usr/bin/python3 /usr/share/system-config-printer/applet.py
+ 1637¬nm-applet      ¬nm-applet
+ 1644¬Wallpaper_Chang¬/usr/bin/python3 /home/michael/bin/Wallpaper_Changer.py
+ 1653¬Application_Hub¬/usr/bin/python3 /home/michael/bin/Application_Hub.py
+ 1662¬mate-volume-con¬mate-volume-control-applet
+ 1666¬mate-screensave¬mate-screensaver
+ 1727¬gvfsd-trash    ¬/usr/lib/gvfs/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ 1770¬gvfs-udisks2-vo¬/usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ 1783¬gvfs-goa-volume¬/usr/lib/gvfs/gvfs-goa-volume-monitor
+ 1788¬gvfs-gphoto2-vo¬/usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ 1793¬gvfs-afc-volume¬/usr/lib/gvfs/gvfs-afc-volume-monitor
+ 1799¬gvfs-mtp-volume¬/usr/lib/gvfs/gvfs-mtp-volume-monitor
+ 1838¬mintupdate-laun¬/usr/bin/python3 /usr/bin/mintupdate-launcher
+ 1841¬sh             ¬sh -c /usr/lib/linuxmint/mintUpdate/mintUpdate.py
+ 1842¬mintUpdate     ¬/usr/bin/python3 /usr/lib/linuxmint/mintUpdate/mintUpdate.py
+ 3294¬gconfd-2       ¬/usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+10138¬chrome         ¬/opt/google/chrome/chrome
+10143¬cat            ¬cat
+10144¬cat            ¬cat
+10147¬chrome         ¬/opt/google/chrome/chrome --type=zygote --enable-crash-reporter=5579f322-4a62-4cb6-bdf0-0a2dd5c4c80b,
+10148¬nacl_helper    ¬/opt/google/chrome/nacl_helper
+10151¬chrome         ¬/opt/google/chrome/chrome --type=zygote --enable-crash-reporter=5579f322-4a62-4cb6-bdf0-0a2dd5c4c80b,
+10200¬chrome         ¬/opt/google/chrome/chrome --type=gpu-process --enable-features=*AutofillCreditCardSigninPromo<AutofillCreditCardSigninPromo,AutofillProfileCleanup<AutofillProfileCleanup,BlockSmallPluginContent<PluginPowerSaverTiny,*OverrideYouTubeFlashEmbed<Override YouTube Flash emed,*PersistentHistograms<PersistentHistograms,*PointerEvent<PointerEvent,*PreconnectMore<PreconnectMore,*PreferHtmlOverPlugins<Html5ByDefault,SecurityChip<SecurityChip,SecurityWarningIconU tyWarningIconUpdate,SubresourceFilter<SubresourceFilter,*TranslateUI2016Q2<TranslateUI2016Q2 --disable-features=DocumentWriteEvaluator<DisallowFetchForDocWrittenScriptsInMainFrame,ParseHTMLOnMainThread<ParseHTMLOnMainThread,SSLPostQuantumExperiment<SSLPostQuantum --force-fieldtrials=*AppBannerTriggering/site-engagement-eager/AutofillCreditCardSigninPromo/Default/*AutofillProfileCleanup/Enabled/CaptivePortalInterstitial/Enabled/*ChromeChannelStable/Enabled/*ChromeSuggestionsTuning/Default/*ClientSideDetectionModel/Model0/DataReductionProxyUseQuic/Control9/DisallowFetchForDocWrittenScriptsInMainFrame/DocumentWriteScriptBlockGroup_20161208_Launch/EnforceCTForProblematicRoots/disabled/ExtensionDeveloperModeWarning/Default/Html5ByDefault/Default/InstanceID/Enabled/OfferUploadCreditCards/Enabled/OmniboxBundledExperimentV1/StandardR7/ParseHTMLOnMainThread/Default/PasswordBranding/SmartLockBrandingSavePromptOnly/*PasswordGeneration/Disabled/PasswordManagerSettingsMigration/Enable/*PersistentHistograms/Default/PluginPowerSaverTiny/Enabled2/PreconnectMore/Default/*QUIC/EnabledDisableDelayTcpRace/ReportCertificateErrors/ShowAndPossiblySend/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/SSLCommonNameMismatchHandling/Enabled/SSLPostQuantum/disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/SecurityChip/Enabled/SecurityWarningIconUpdate/Enabled/SignInPasswordPromo/Default/*SiteIsolationExtensions/Control/StrictSecureCookies/Default/SubresourceFilter/EnabledForPhishingSites/TranslateServerStudy/Default/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_45/*UMA-Uniformity-Trial-10-Percent/default/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_02/*UMA-Uniformity-Trial-5-Percent/group_08/*UMA-Uniformity-Trial-50-Percent/group_01/WebBluetoothBlacklist/BlacklistUpdate1/WebFontsInterventionV2/Default/ --enable-crash-reporter=5579f322-4a62-4cb6-bdf0-0a2dd5c4c80b, --supports-dual-gpus=false --gpu-driver-bug-workarounds=6,7,21,26,65 --disable-gl-extensions=GL_NV_path_rendering --gpu-vendor-id=0x10de --gpu-device-id=0x1380 --gpu-driver-vendor=Mesa --gpu-driver-version=11.2.0 --gpu-driver-date --enable-crash-reporter=5579f322-4a62-4cb6-bdf0-0a2dd5c4c80b, --service-request-channel-token=735179E99F6CCAEBD641FDB0F7355BEC --v8-natives-passed-by-fd --v8-snapshot-passed-by-fd
+10208¬chrome         ¬/opt/google/chrome/chrome --type=gpu-broker                                                                                                                                                                                                                                                                                                                                                                                                                             tyWarningIconUpdate,SubresourceFilter<SubresourceFilter,*TranslateUI2016Q2<TranslateUI2016Q2 --disable-features=DocumentWriteEvaluator<DisallowFetchForDocWrittenScriptsInMainFrame,ParseHTMLOnMainThread<ParseHTMLOnMainThread,SSLPostQuantumExperiment<SSLPostQuantum --force-fieldtrials=*AppBannerTriggering/site-engagement-eager/AutofillCreditCardSigninPromo/Default/*AutofillProfileCleanup/Enabled/CaptivePortalInterstitial/Enabled/*ChromeChannelStable/Enabled/*ChromeSuggestionsTuning/Default/*ClientSideDetectionModel/Model0/DataReductionProxyUseQuic/Control9/DisallowFetchForDocWrittenScriptsInMainFrame/DocumentWriteScriptBlockGroup_20161208_Launch/EnforceCTForProblematicRoots/disabled/ExtensionDeveloperModeWarning/Default/Html5ByDefault/Default/InstanceID/Enabled/OfferUploadCreditCards/Enabled/OmniboxBundledExperimentV1/StandardR7/ParseHTMLOnMainThread/Default/PasswordBranding/SmartLockBrandingSavePromptOnly/*PasswordGeneration/Disabled/PasswordManagerSettingsMigration/Enable/*PersistentHistograms/Default/PluginPowerSaverTiny/Enabled2/PreconnectMore/Default/*QUIC/EnabledDisableDelayTcpRace/ReportCertificateErrors/ShowAndPossiblySend/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/SSLCommonNameMismatchHandling/Enabled/SSLPostQuantum/disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/SecurityChip/Enabled/SecurityWarningIconUpdate/Enabled/SignInPasswordPromo/Default/*SiteIsolationExtensions/Control/StrictSecureCookies/Default/SubresourceFilter/EnabledForPhishingSites/TranslateServerStudy/Default/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_45/*UMA-Uniformity-Trial-10-Percent/default/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_02/*UMA-Uniformity-Trial-5-Percent/group_08/*UMA-Uniformity-Trial-50-Percent/group_01/WebBluetoothBlacklist/BlacklistUpdate1/WebFontsInterventionV2/Default/ --enable-crash-reporter=5579f322-4a62-4cb6-bdf0-0a2dd5c4c80b, --supports-dual-gpus=false --gpu-driver-bug-workarounds=6,7,21,26,65 --disable-gl-extensions=GL_NV_path_rendering --gpu-vendor-id=0x10de --gpu-device-id=0x1380 --gpu-driver-vendor=Mesa --gpu-driver-version=11.2.0 --gpu-driver-date --enable-crash-reporter=5579f322-4a62-4cb6-bdf0-0a2dd5c4c80b, --service-request-channel-token=735179E99F6CCAEBD641FDB0F7355BEC --v8-natives-passed-by-fd --v8-snapshot-passed-by-fd
+10211¬chrome         ¬/opt/google/chrome/chrome --type=renderer --enable-features=*AutofillCreditCardSigninPromo<AutofillCreditCardSigninPromo,AutofillProfileCleanup<AutofillProfileCleanup,BlockSmallPluginContent<PluginPowerSaverTiny,*OverrideYouTubeFlashEmbed<Override YouTube Flash emed,*PersistentHistograms<PersistentHistograms,*PointerEvent<PointerEvent,*PreconnectMore<PreconnectMore,*PreferHtmlOverPlugins<Html5ByDefault,SecurityChip<SecurityChip,SecurityWarningIconUpdate<SecurityWarningIconUpdate,SubresourceFilter<SubresourceFilter,*TranslateUI2016Q2<TranslateUI2016Q2 --disable-features=DocumentWriteEvaluator<DisallowFetchForDocWrittenScriptsInMainFrame,ParseHTMLOnMainThread<ParseHTMLOnMainThread,SSLPostQuantumExperiment<SSLPostQuantum --force-fieldtrials=*AppBannerTriggering/site-engagement-eager/AutofillCreditCardSigninPromo/Default/*AutofillProfileCleanup/Enabled/CaptivePortalInterstitial/Enabled/*ChromeChannelStable/Enabled/*ChromeSuggestionsTuning/Default/*ClientSideDetectionModel/Model0/*DataReductionProxyUseQuic/Control9/*DisallowFetchForDocWrittenScriptsInMainFrame/DocumentWriteScriptBlockGroup_20161208_Launch/EnforceCTForProblematicRoots/disabled/ExtensionDeveloperModeWarning/Default/Html5ByDefault/Default/*InstanceID/Enabled/OfferUploadCreditCards/Enabled/*OmniboxBundledExperimentV1/StandardR7/*ParseHTMLOnMainThread/Default/PasswordBranding/SmartLockBrandingSavePromptOnly/*PasswordGeneration/Disabled/*PasswordManagerSettingsMigration/Enable/*PersistentHistograms/Default/PluginPowerSaverTiny/Enabled2/PreconnectMore/Default/*QUIC/EnabledDisableDelayTcpRace/ReportCertificateErrors/ShowAndPossiblySend/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/SSLCommonNameMismatchHandling/Enabled/SSLPostQuantu
+10226¬chrome         ¬/opt/google/chrome/chrome --type=renderer --enable-features=*AutofillCreditCardSigninPromo<AutofillCreditCardSigninPromo,AutofillProfileCleanup<AutofillProfileCleanup,BlockSmallPluginContent<PluginPowerSaverTiny,*OverrideYouTubeFlashEmbed<Override YouTube Flash emed,*PersistentHistograms<PersistentHistograms,*PointerEvent<PointerEvent,*PreconnectMore<PreconnectMore,*PreferHtmlOverPlugins<Html5ByDefault,SecurityChip<SecurityChip,SecurityWarningIconUpdate<SecurityWarningIconUpdate,SubresourceFilter<SubresourceFilter,*TranslateUI2016Q2<TranslateUI2016Q2 --disable-features=DocumentWriteEvaluator<DisallowFetchForDocWrittenScriptsInMainFrame,ParseHTMLOnMainThread<ParseHTMLOnMainThread,SSLPostQuantumExperiment<SSLPostQuantum --force-fieldtrials=*AppBannerTriggering/site-engagement-eager/AutofillCreditCardSigninPromo/Default/*AutofillProfileCleanup/Enabled/CaptivePortalInterstitial/Enabled/*ChromeChannelStable/Enabled/*ChromeSuggestionsTuning/Default/*ClientSideDetectionModel/Model0/*DataReductionProxyUseQuic/Control9/*DisallowFetchForDocWrittenScriptsInMainFrame/DocumentWriteScriptBlockGroup_20161208_Launch/EnforceCTForProblematicRoots/disabled/ExtensionDeveloperModeWarning/Default/Html5ByDefault/Default/*InstanceID/Enabled/OfferUploadCreditCards/Enabled/*OmniboxBundledExperimentV1/StandardR7/*ParseHTMLOnMainThread/Default/PasswordBranding/SmartLockBrandingSavePromptOnly/*PasswordGeneration/Disabled/*PasswordManagerSettingsMigration/Enable/*PersistentHistograms/Default/PluginPowerSaverTiny/Enabled2/PreconnectMore/Default/*QUIC/EnabledDisableDelayTcpRace/ReportCertificateErrors/ShowAndPossiblySend/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/SSLCommonNameMismatchHandling/Enabled/SSLPostQuantu
+10246¬chrome         ¬/opt/google/chrome/chrome --type=renderer --enable-features=*AutofillCreditCardSigninPromo<AutofillCreditCardSigninPromo,AutofillProfileCleanup<AutofillProfileCleanup,BlockSmallPluginContent<PluginPowerSaverTiny,*OverrideYouTubeFlashEmbed<Override YouTube Flash emed,*PersistentHistograms<PersistentHistograms,*PointerEvent<PointerEvent,*PreconnectMore<PreconnectMore,*PreferHtmlOverPlugins<Html5ByDefault,SecurityChip<SecurityChip,SecurityWarningIconUpdate<SecurityWarningIconUpdate,SubresourceFilter<SubresourceFilter,*TranslateUI2016Q2<TranslateUI2016Q2 --disable-features=DocumentWriteEvaluator<DisallowFetchForDocWrittenScriptsInMainFrame,ParseHTMLOnMainThread<ParseHTMLOnMainThread,SSLPostQuantumExperiment<SSLPostQuantum --force-fieldtrials=*AppBannerTriggering/site-engagement-eager/AutofillCreditCardSigninPromo/Default/*AutofillProfileCleanup/Enabled/CaptivePortalInterstitial/Enabled/*ChromeChannelStable/Enabled/*ChromeSuggestionsTuning/Default/*ClientSideDetectionModel/Model0/*DataReductionProxyUseQuic/Control9/*DisallowFetchForDocWrittenScriptsInMainFrame/DocumentWriteScriptBlockGroup_20161208_Launch/EnforceCTForProblematicRoots/disabled/*ExtensionDeveloperModeWarning/Default/Html5ByDefault/Default/*InstanceID/Enabled/OfferUploadCreditCards/Enabled/*OmniboxBundledExperimentV1/StandardR7/*ParseHTMLOnMainThread/Default/PasswordBranding/SmartLockBrandingSavePromptOnly/*PasswordGeneration/Disabled/*PasswordManagerSettingsMigration/Enable/*PersistentHistograms/Default/PluginPowerSaverTiny/Enabled2/PreconnectMore/Default/*QUIC/EnabledDisableDelayTcpRace/ReportCertificateErrors/ShowAndPossiblySend/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/SSLCommonNameMismatchHandling/Enabled/SSLPostQuant
+10257¬chrome         ¬/opt/google/chrome/chrome --type=renderer --enable-features=*AutofillCreditCardSigninPromo<AutofillCreditCardSigninPromo,AutofillProfileCleanup<AutofillProfileCleanup,BlockSmallPluginContent<PluginPowerSaverTiny,*OverrideYouTubeFlashEmbed<Override YouTube Flash emed,*PersistentHistograms<PersistentHistograms,*PointerEvent<PointerEvent,*PreconnectMore<PreconnectMore,*PreferHtmlOverPlugins<Html5ByDefault,SecurityChip<SecurityChip,SecurityWarningIconUpdate<SecurityWarningIconUpdate,SubresourceFilter<SubresourceFilter,*TranslateUI2016Q2<TranslateUI2016Q2 --disable-features=DocumentWriteEvaluator<DisallowFetchForDocWrittenScriptsInMainFrame,ParseHTMLOnMainThread<ParseHTMLOnMainThread,SSLPostQuantumExperiment<SSLPostQuantum --force-fieldtrials=*AppBannerTriggering/site-engagement-eager/AutofillCreditCardSigninPromo/Default/*AutofillProfileCleanup/Enabled/CaptivePortalInterstitial/Enabled/*ChromeChannelStable/Enabled/*ChromeSuggestionsTuning/Default/*ClientSideDetectionModel/Model0/*DataReductionProxyUseQuic/Control9/*DisallowFetchForDocWrittenScriptsInMainFrame/DocumentWriteScriptBlockGroup_20161208_Launch/EnforceCTForProblematicRoots/disabled/*ExtensionDeveloperModeWarning/Default/Html5ByDefault/Default/*InstanceID/Enabled/OfferUploadCreditCards/Enabled/*OmniboxBundledExperimentV1/StandardR7/*ParseHTMLOnMainThread/Default/PasswordBranding/SmartLockBrandingSavePromptOnly/*PasswordGeneration/Disabled/*PasswordManagerSettingsMigration/Enable/*PersistentHistograms/Default/PluginPowerSaverTiny/Enabled2/PreconnectMore/Default/*QUIC/EnabledDisableDelayTcpRace/ReportCertificateErrors/ShowAndPossiblySend/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/SSLCommonNameMismatchHandling/Enabled/SSLPostQuant
+10263¬chrome         ¬/opt/google/chrome/chrome --type=renderer --enable-features=*AutofillCreditCardSigninPromo<AutofillCreditCardSigninPromo,AutofillProfileCleanup<AutofillProfileCleanup,BlockSmallPluginContent<PluginPowerSaverTiny,*OverrideYouTubeFlashEmbed<Override YouTube Flash emed,*PersistentHistograms<PersistentHistograms,*PointerEvent<PointerEvent,*PreconnectMore<PreconnectMore,*PreferHtmlOverPlugins<Html5ByDefault,SecurityChip<SecurityChip,SecurityWarningIconUpdate<SecurityWarningIconUpdate,SubresourceFilter<SubresourceFilter,*TranslateUI2016Q2<TranslateUI2016Q2 --disable-features=DocumentWriteEvaluator<DisallowFetchForDocWrittenScriptsInMainFrame,ParseHTMLOnMainThread<ParseHTMLOnMainThread,SSLPostQuantumExperiment<SSLPostQuantum --force-fieldtrials=*AppBannerTriggering/site-engagement-eager/AutofillCreditCardSigninPromo/Default/*AutofillProfileCleanup/Enabled/CaptivePortalInterstitial/Enabled/*ChromeChannelStable/Enabled/*ChromeSuggestionsTuning/Default/*ClientSideDetectionModel/Model0/*DataReductionProxyUseQuic/Control9/*DisallowFetchForDocWrittenScriptsInMainFrame/DocumentWriteScriptBlockGroup_20161208_Launch/EnforceCTForProblematicRoots/disabled/*ExtensionDeveloperModeWarning/Default/Html5ByDefault/Default/*InstanceID/Enabled/OfferUploadCreditCards/Enabled/*OmniboxBundledExperimentV1/StandardR7/*ParseHTMLOnMainThread/Default/PasswordBranding/SmartLockBrandingSavePromptOnly/*PasswordGeneration/Disabled/*PasswordManagerSettingsMigration/Enable/*PersistentHistograms/Default/PluginPowerSaverTiny/Enabled2/PreconnectMore/Default/*QUIC/EnabledDisableDelayTcpRace/ReportCertificateErrors/ShowAndPossiblySend/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/SSLCommonNameMismatchHandling/Enabled/SSLPostQuant
+10321¬driver-manager ¬/usr/bin/python3 /usr/bin/driver-manager
+10322¬sh             ¬sh -c gksu  --message "<b>Please enter your password to launch the driver manager</b>" /usr/lib/linuxmint/mintdrivers/mintdrivers.py
+10323¬gksu           ¬gksu --message <b>Please enter your password to launch the driver manager</b> /usr/lib/linuxmint/mintdrivers/mintdrivers.py
+10382¬gvfsd-metadata ¬/usr/lib/gvfs/gvfsd-metadata
+10511¬xed            ¬xed /home/michael/git/Project-I.A.N./Testing/Project Interface.py
+11354¬mate-terminal  ¬mate-terminal
+11359¬bash           ¬bash
+11781¬chrome         ¬/opt/google/chrome/chrome --type=renderer --enable-features=*AutofillCreditCardSigninPromo<AutofillCreditCardSigninPromo,AutofillProfileCleanup<AutofillProfileCleanup,BlockSmallPluginContent<PluginPowerSaverTiny,*OverrideYouTubeFlashEmbed<Override YouTube Flash emed,*PersistentHistograms<PersistentHistograms,*PointerEvent<PointerEvent,*PreconnectMore<PreconnectMore,*PreferHtmlOverPlugins<Html5ByDefault,SecurityChip<SecurityChip,SecurityWarningIconUpdate<SecurityWarningIconUpdate,SubresourceFilter<SubresourceFilter,*TranslateUI2016Q2<TranslateUI2016Q2 --disable-features=DocumentWriteEvaluator<DisallowFetchForDocWrittenScriptsInMainFrame,ParseHTMLOnMainThread<ParseHTMLOnMainThread,SSLPostQuantumExperiment<SSLPostQuantum --force-fieldtrials=*AppBannerTriggering/site-engagement-eager/AutofillCreditCardSigninPromo/Default/*AutofillProfileCleanup/Enabled/CaptivePortalInterstitial/Enabled/*ChromeChannelStable/Enabled/*ChromeSuggestionsTuning/Default/*ClientSideDetectionModel/Model0/*DataReductionProxyUseQuic/Control9/*DisallowFetchForDocWrittenScriptsInMainFrame/DocumentWriteScriptBlockGroup_20161208_Launch/EnforceCTForProblematicRoots/disabled/*ExtensionDeveloperModeWarning/Default/*Html5ByDefault/Default/*InstanceID/Enabled/OfferUploadCreditCards/Enabled/*OmniboxBundledExperimentV1/StandardR7/*ParseHTMLOnMainThread/Default/PasswordBranding/SmartLockBrandingSavePromptOnly/*PasswordGeneration/Disabled/*PasswordManagerSettingsMigration/Enable/*PersistentHistograms/Default/PluginPowerSaverTiny/Enabled2/*PreconnectMore/Default/*QUIC/EnabledDisableDelayTcpRace/ReportCertificateErrors/ShowAndPossiblySend/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/SSLCommonNameMismatchHandling/Enabled/*SSLPostQu
+12476¬trial8.3       ¬/bin/bash ./trial8.3
+12526¬firefox        ¬/usr/lib/firefox/firefox
+12580¬Web Content    ¬/usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 12526 true tab
+12623¬ps             ¬ps -u michael -o %p¬%c¬ -o cmd

@@ -19,7 +19,7 @@ class MainWindow(Gtk.Window):
         self.settings_image_dynamic.set_from_file("cog_dynamic_32x32.gif")
         self.settings_image_still = Gtk.Image()
         self.settings_image_still.set_from_file("cog_still_32x32.png")
-        
+
         self.settings_button = Gtk.Button()
         self.settings_button.set_image(self.settings_image_still)
         self.settings_button.set_size_request(32,32)
@@ -42,7 +42,7 @@ class MainWindow(Gtk.Window):
         page3.set_border_width(10)
         page3.pack_end(hbox_mini, False, True, 0)
         notebook.append_page(page3, Gtk.Label("Favourites"))
-        
+
         #stack = Gtk.Stack()
         #stack.set_transition_type(Gtk.StackTransitionType.NONE)
         #stack.set_transition_duration(500)
@@ -53,7 +53,7 @@ class MainWindow(Gtk.Window):
         #vbox_child.pack_start(check_button, False, True, 0)
         #vbox_child.pack_start(button1, False, True, 0)
         #stack.add_titled(vbox_child, "box", "Simple View")
-        
+
         #label = Gtk.Label()
         #label.set_markup("<big>A fancy label</big>")
         #stack.add_titled(label, "label", "Advanced View")
@@ -78,20 +78,21 @@ class MainWindow(Gtk.Window):
 class SettingsDialog(Gtk.Dialog):
     def __init__(self):
         Gtk.Dialog.__init__(self, "Settings")
-        
+
+        self.set_transient_for(main_window)
         self.set_default_size(500, 250)
         self.set_resizable(False)
         self.set_position(Gtk.WindowPosition.CENTER)
         self.set_icon_from_file("cog_still_32x32.png")
         box = self.get_content_area()
-        
+
         settings_vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         test_button = Gtk.Button(label="This is a button.")
         settings_vbox.pack_start(test_button, True, True, 0)
-        
+
         box.add(settings_vbox)
         self.show_all()
-        
+
 
 main_window = MainWindow()
 main_window.set_default_size(1000, 500)
