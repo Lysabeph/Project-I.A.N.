@@ -46,24 +46,26 @@ trap exit_trap_cleanup EXIT
 function compare_output () {
     integers=(1 2 3)
     mapfile -t prev_output < $SAVE_PATH/previous_output # Reads the contents of the previous output from the file.
-    unset prev_output[-1] # Removes the 'ps' process.
+    #unset prev_output[-1] # Removes the 'ps' process.
     mapfile -t new_output < $SAVE_PATH/newest_output # Reads the contents of the newest output from the file.
-    unset new_output[-1] # Removes the 'ps' process.
+    #unset new_output[-1] # Removes the 'ps' process.
     offset=0 # Initiates the offset counter with a default value (usually 0).
     local -a log
 
     # Loops through each record of the $new_output.
     for element in ${!new_output[@]}; do
 
+        prev_record=()
+        new_record=()
+        
+        for i in "${integers[@]}"; do
+            prev_record+=( $( echo ${prev_output[ $(( element + offset )) ]} | awk -F'///' -v i=$i '{print $i}' ) )
+            new_record+=( $( echo ${new_output[ $element ]} | awk -F'///' -v i=$i '{print $i}' ) )
+        done
+
         # Loops to catch all new and old processes.
         while true; do
 
-            for i in "${integers[@]}"; do
-                prev_record+=( $( echo ${prev_output[ $(( element + offset )) ]} | awk -F'///' -v i=$item '{print $i}' ) )
-                new_record+=( $( echo ${new_output[ $element ]} | awk -F'///' -v i=$i '{print $i}' ) )
-            done
-
-            echo ${prev_record[@]} ${new_record[@]}
             # Moves onto the next record of $new_output if the new and previous records are the same.
             if [ "$prev_record" == "$new_record" ]; then
                 break
@@ -72,7 +74,7 @@ function compare_output () {
                 local -i prev_pid=${prev_record[0]} # Index 0 of any record is a process' PID.
 
                 # PID of 0 means $prev_output has fewer records than $new_output.
-                if [ "$prev_pid" -eq "0" ]; then
+                if [ "$prev_pid" -eq "0" ] || [ -z "$prev_pid" ]; then
                     prev_pid=$(( $( cat /proc/sys/kernel/pid_max ) + 1 ))
                 fi
 
@@ -85,13 +87,21 @@ function compare_output () {
                     break # Moves onto the next record.
                 # Checks if an old process was stopped.
                 elif [ "$new_pid" -gt "$prev_pid" ]; then
+                    echo $new_pid $prev_pid $offset ${prev_output[ $(( element + offset )) ]}
                     (( offset++ )) # Changes the offset counter to compensate.
                     log=( "${log[@]}" "${prev_output[ $(( element + offset )) ]} ///$(date +"%s") ///Close" ) # Logs the changes.
+                    prev_record=()
+                    for i in "${integers[@]}"; do
+                        prev_record+=( $( echo ${prev_output[ $(( element + offset )) ]} | awk -F'///' -v i=$i '{print $i}' ) )
+                    done
+                    echo ${prev_record[0]}
                     # The loop doesn't break, meaning any more old proceses are logged.
                 fi
             fi
         done
     done
+
+    echo c1
 
     # Finds old processes started after the most recently started process (if $prev_output is longer than $new_output).
     for _ in "${prev_output[@]:$((element + offset + 1))}"; do
@@ -100,7 +110,7 @@ function compare_output () {
 
     # Removes all the unnecessary records from the data.
     # Loops through each logged record.
-    integers+=(4)
+    integers+=(4 5)
 
     for item in "${!log[@]}"; do
 
@@ -143,6 +153,8 @@ function compare_output () {
         fi
     done
 
+    echo c2
+
     # Loops through the logged records again now that all unnecessary records have been removed.
     for item in "${!log[@]}"; do
 
@@ -175,6 +187,8 @@ function compare_output () {
             INSERT INTO ProgramLogs(ProgramName, PID, DateTime, OpenClose)
             VALUES('$name', '$pid', '$current_time', '$state');" )
     done
+
+    echo c3
 }
 
 # Gets the running processes when the program first runs.

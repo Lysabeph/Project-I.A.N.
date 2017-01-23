@@ -42,7 +42,7 @@ for program in programs:
             # Calculates the time a program was open once the close log is found.
             else:
                 ftime = record[-2]
-                running_time_total += ftime - stime
+                running_time_total += (int(ftime) - int(stime))
                 pstate = "Close"
 
         # If the previous log was the closing of a program or the start of a new program's logs.
