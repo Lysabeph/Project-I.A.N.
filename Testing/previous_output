@@ -1,55 +1,54 @@
- 1583///systemd        ////lib/systemd/systemd --user
- 1584///(sd-pam)       ///(sd-pam)
- 1589///gnome-keyring-d////usr/bin/gnome-keyring-daemon --daemonize --login
- 1666///mate-session   ///mate-session
- 1737///ssh-agent      ////usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
- 1740///dbus-launch    ////usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
- 1741///dbus-daemon    ////usr/bin/dbus-daemon --fork --print-pid 6 --print-address 9 --session
- 1751///at-spi-bus-laun////usr/lib/at-spi2-core/at-spi-bus-launcher
- 1755///gvfsd          ////usr/lib/gvfs/gvfsd
- 1760///gvfsd-fuse     ////usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
- 1763///dbus-daemon    ////usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
- 1765///at-spi2-registr////usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
- 1772///dconf-service  ////usr/lib/dconf/dconf-service
- 1786///mate-settings-d////usr/bin/mate-settings-daemon
- 1796///marco          ///marco --composite --replace
- 1797///mate-panel     ///mate-panel
- 1807///pulseaudio     ////usr/bin/pulseaudio --start --log-target=syslog
- 1811///caja           ///caja
- 1814///mintmenu       ///mintmenu
- 1816///wnck-applet    ////usr/lib/mate-panel/wnck-applet
- 1818///clock-applet   ////usr/lib/mate-panel/clock-applet
- 1820///notification-ar////usr/lib/mate-panel/notification-area-applet
- 1848///mate-volume-con///mate-volume-control-applet
- 1852///mate-power-mana///mate-power-manager
- 1854///nm-applet      ///nm-applet
- 1864///python2        ///python2 /usr/lib/nvidia-prime-applet/nvidia-prime
- 1868///polkit-mate-aut////usr/lib/x86_64-linux-gnu/polkit-mate-authentication-agent-1
- 1873///mate-screensave///mate-screensaver
- 1875///blueberry-tray ////usr/bin/python /usr/bin/blueberry-tray
- 1878///applet.py      ////usr/bin/python3 /usr/share/system-config-printer/applet.py
- 1879///sh             ///sh -c /usr/lib/blueberry/blueberry-tray.py
- 1881///python2        ///python2 /usr/lib/blueberry/blueberry-tray.py
- 1923///gvfs-udisks2-vo////usr/lib/gvfs/gvfs-udisks2-volume-monitor
- 1930///gvfsd-trash    ////usr/lib/gvfs/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
- 1951///rfkill         ////usr/sbin/rfkill event
- 1991///gvfs-goa-volume////usr/lib/gvfs/gvfs-goa-volume-monitor
- 1998///gvfs-afc-volume////usr/lib/gvfs/gvfs-afc-volume-monitor
- 2004///gvfs-mtp-volume////usr/lib/gvfs/gvfs-mtp-volume-monitor
- 2009///gvfs-gphoto2-vo////usr/lib/gvfs/gvfs-gphoto2-volume-monitor
- 2021///mate-terminal  ///mate-terminal
- 2026///bash           ///bash
- 2058///mintupdate-laun////usr/bin/python3 /usr/bin/mintupdate-launcher
- 2061///sh             ///sh -c /usr/lib/linuxmint/mintUpdate/mintUpdate.py
- 2062///mintUpdate     ////usr/bin/python3 /usr/lib/linuxmint/mintUpdate/mintUpdate.py
- 2939///gvfsd-metadata ////usr/lib/gvfs/gvfsd-metadata
- 4259///gconfd-2       ////usr/lib/x86_64-linux-gnu/gconf/gconfd-2
-20502///rhythmbox      ///rhythmbox
-21662///gvfsd-network  ////usr/lib/gvfs/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/2
-22788///gvfsd-dnssd    ////usr/lib/gvfs/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/5
-26776///sqlitebrowser  ///sqlitebrowser /home/michael/git/Project-I.A.N./Testing/test.db
-26784///xed            ///xed /home/michael/git/Project-I.A.N./Testing/newest_output
-26905///trial8.4       ////bin/bash ./trial8.4
-27906///firefox        ////usr/lib/firefox/firefox
-27945///Web Content    ////usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 27906 true tab
-28005///ps             ///ps -u michael -o %p///%c/// -o cmd --no-headers
+ 1609///systemd        ////lib/systemd/systemd --user
+ 1610///(sd-pam)       ///(sd-pam)
+ 1615///gnome-keyring-d////usr/bin/gnome-keyring-daemon --daemonize --login
+ 1692///mate-session   ///mate-session
+ 1763///ssh-agent      ////usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
+ 1766///dbus-launch    ////usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
+ 1767///dbus-daemon    ////usr/bin/dbus-daemon --fork --print-pid 6 --print-address 9 --session
+ 1777///at-spi-bus-laun////usr/lib/at-spi2-core/at-spi-bus-launcher
+ 1781///gvfsd          ////usr/lib/gvfs/gvfsd
+ 1786///gvfsd-fuse     ////usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ 1789///dbus-daemon    ////usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ 1791///at-spi2-registr////usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ 1798///dconf-service  ////usr/lib/dconf/dconf-service
+ 1812///mate-settings-d////usr/bin/mate-settings-daemon
+ 1822///marco          ///marco --composite --replace
+ 1823///mate-panel     ///mate-panel
+ 1830///pulseaudio     ////usr/bin/pulseaudio --start --log-target=syslog
+ 1837///caja           ///caja
+ 1840///mintmenu       ///mintmenu
+ 1842///wnck-applet    ////usr/lib/mate-panel/wnck-applet
+ 1845///clock-applet   ////usr/lib/mate-panel/clock-applet
+ 1847///notification-ar////usr/lib/mate-panel/notification-area-applet
+ 1866///applet.py      ////usr/bin/python3 /usr/share/system-config-printer/applet.py
+ 1870///nm-applet      ///nm-applet
+ 1871///mate-power-mana///mate-power-manager
+ 1876///mate-volume-con///mate-volume-control-applet
+ 1887///python2        ///python2 /usr/lib/nvidia-prime-applet/nvidia-prime
+ 1892///polkit-mate-aut////usr/lib/x86_64-linux-gnu/polkit-mate-authentication-agent-1
+ 1895///mate-screensave///mate-screensaver
+ 1899///blueberry-tray ////usr/bin/python /usr/bin/blueberry-tray
+ 1903///sh             ///sh -c /usr/lib/blueberry/blueberry-tray.py
+ 1905///python2        ///python2 /usr/lib/blueberry/blueberry-tray.py
+ 1992///gvfs-udisks2-vo////usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ 1996///rfkill         ////usr/sbin/rfkill event
+ 2006///gvfsd-trash    ////usr/lib/gvfs/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ 2028///gvfs-goa-volume////usr/lib/gvfs/gvfs-goa-volume-monitor
+ 2033///gvfs-afc-volume////usr/lib/gvfs/gvfs-afc-volume-monitor
+ 2039///gvfs-mtp-volume////usr/lib/gvfs/gvfs-mtp-volume-monitor
+ 2044///gvfs-gphoto2-vo////usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ 2066///gvfsd-metadata ////usr/lib/gvfs/gvfsd-metadata
+ 2113///mintupdate-laun////usr/bin/python3 /usr/bin/mintupdate-launcher
+ 2116///sh             ///sh -c /usr/lib/linuxmint/mintUpdate/mintUpdate.py
+ 2117///mintUpdate     ////usr/bin/python3 /usr/lib/linuxmint/mintUpdate/mintUpdate.py
+ 2154///xed            ///xed /home/michael/git/Project-I.A.N./Testing/trial9.5
+ 3294///gconfd-2       ////usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+ 4694///gvfsd-network  ////usr/lib/gvfs/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ 4723///gvfsd-dnssd    ////usr/lib/gvfs/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/5
+ 4729///rhythmbox      ///rhythmbox
+16218///mate-terminal  ///mate-terminal
+16223///bash           ///bash
+17465///trial9.6       ////bin/bash ./trial9.6
+24644///hexchat        ///hexchat
+24645///hexchat        ///hexchat
+24648///ps             ///ps -u michael -o %p///%c/// -o cmd --no-headers
