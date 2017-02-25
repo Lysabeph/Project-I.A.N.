@@ -34,7 +34,7 @@ def get_probability(variable, dictionary):
 
     return probability, persistance
 
-conn = sqlite3.connect('test.db')
+conn = sqlite3.connect('test_logs2.db')
 c = conn.cursor()
 
 programs = []
