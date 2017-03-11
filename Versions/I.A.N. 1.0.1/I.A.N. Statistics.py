@@ -101,7 +101,7 @@ for program in open_programs:
 
         open_programs_numbers.append=c.fetchone()[0]
 
-current_epoch = 1486190301 # int(time.time())
+current_epoch = int(time.time())
 lower_epoch, upper_epoch = get_time_range(current_epoch)
 
 c.execute("""
